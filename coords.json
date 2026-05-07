@@ -1,0 +1,404 @@
+{
+  "Brick Lane Bookshop": {
+    "lat": 51.5223392,
+    "lng": -0.0715071,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Brick+Lane+Bookshop+London"
+  },
+  "Shreeji Newsagents": {
+    "lat": 51.5185841,
+    "lng": -0.154565,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Shreeji+Newsagents+Chiltern+Street+London"
+  },
+  "Eataly London": {
+    "lat": 51.5178605,
+    "lng": -0.0804078,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Eataly+London"
+  },
+  "Japan House": {
+    "lat": 51.5014581,
+    "lng": -0.191729,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Japan+House+London+Kensington+High+Street"
+  },
+  "Liberty London": {
+    "lat": 51.5138717,
+    "lng": -0.1400263,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Liberty+London+Regent+Street"
+  },
+  "Toconoco": {
+    "lat": 51.5383498,
+    "lng": -0.0783027,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Toconoco+Hertford+Road+London"
+  },
+  "640East": {
+    "lat": 51.5027494,
+    "lng": -0.0144269,
+    "source": "google",
+    "query": "https://maps.app.goo.gl/kC34qNuhQCfSVEW36"
+  },
+  "Cinnamon Coffee Shop": {
+    "lat": 51.504743,
+    "lng": -0.0572325,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Cinnamon+Coffee+Shop+Wapping+Lane+London"
+  },
+  "WatchHouse Fitzrovia": {
+    "lat": 51.5178642,
+    "lng": -0.1390368,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=WatchHouse+Fitzrovia+London"
+  },
+  "WatchHouse Bermondsey": {
+    "lat": 51.4980106,
+    "lng": -0.0812506,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=WatchHouse+Bermondsey+London"
+  },
+  "Café O'Porto": {
+    "lat": 51.5222659,
+    "lng": -0.2082612,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Cafe+O%27Porto+Golborne+Road+London"
+  },
+  "Rotunda Cafe": {
+    "lat": 51.4869037,
+    "lng": -0.0090978,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Rotunda+Cafe+Saunders+Ness+Road+London"
+  },
+  "Calico Coffee": {
+    "lat": 51.5012521,
+    "lng": -0.1120692,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Calico+Coffee+Lower+Marsh+London"
+  },
+  "Daydreamer": {
+    "lat": 51.4496035,
+    "lng": -0.0440993,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Daydreamer+Cafe+Honor+Oak+Park+London"
+  },
+  "Smoking Goat": {
+    "lat": 51.524224,
+    "lng": -0.0769238,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Smoking+Goat+Shoreditch+London"
+  },
+  "Kiln": {
+    "lat": 51.5114007,
+    "lng": -0.136059,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Kiln+Brewer+Street+London"
+  },
+  "The Eagle (Farringdon)": {
+    "lat": 51.5241384,
+    "lng": -0.1096687,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=The+Eagle+Farringdon+Road+London"
+  },
+  "Cafe Tiffin (Farringdon)": {
+    "lat": 51.5246062,
+    "lng": -0.1025542,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Cafe+Tiffin+Compton+Street+London"
+  },
+  "OMA": {
+    "lat": 51.505349,
+    "lng": -0.090019,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=OMA+Bedale+Street+Borough+Market+London"
+  },
+  "Kricket Canary Wharf": {
+    "lat": 51.5059669,
+    "lng": -0.0206983,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Kricket+Canary+Wharf+London"
+  },
+  "Morchella": {
+    "lat": 51.5266656,
+    "lng": -0.1085559,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Morchella+Rosebery+Avenue+London"
+  },
+  "Kricket Brixton": {
+    "lat": 51.4623482,
+    "lng": -0.1121243,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Kricket+Brixton+Atlantic+Road+London"
+  },
+  "Sporting Club London": {
+    "lat": 51.5222544,
+    "lng": -0.2027711,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Sporting+Club+London+Elkstone+Road"
+  },
+  "Naïfs": {
+    "lat": 51.4755039,
+    "lng": -0.065267,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Naifs+Goldsmith+Road+Peckham+London"
+  },
+  "Nandine": {
+    "lat": 51.4739607,
+    "lng": -0.0894335,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Nandine+Camberwell+Church+Street+London"
+  },
+  "The Jackalope": {
+    "lat": 51.5200708,
+    "lng": -0.1462096,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=The+Jackalope+Weymouth+Mews+Marylebone+London"
+  },
+  "Beigel Bake": {
+    "lat": 51.5244985,
+    "lng": -0.0717608,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Beigel+Bake+Brick+Lane+London"
+  },
+  "Lisboa Patisserie": {
+    "lat": 51.5224495,
+    "lng": -0.2075904,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Lisboa+Patisserie+Golborne+Road+London"
+  },
+  "Regent's Canal": {
+    "lat": 51.5330928,
+    "lng": -0.1025375,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Regent%27s+Canal+London"
+  },
+  "Hampstead Heath (and Hampstead Village)": {
+    "lat": 51.5608294,
+    "lng": -0.1629416,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Hampstead+Heath+London"
+  },
+  "Highgate Cemetery": {
+    "lat": 51.5669188,
+    "lng": -0.1467755,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Highgate+Cemetery+Swain%27s+Lane+London"
+  },
+  "Horniman Museum and Gardens": {
+    "lat": 51.4419283,
+    "lng": -0.0619967,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Horniman+Museum+and+Gardens+Forest+Hill+London"
+  },
+  "St Pancras Station": {
+    "lat": 51.5313384,
+    "lng": -0.1261947,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=St+Pancras+Station+London"
+  },
+  "Sky Garden": {
+    "lat": 51.5112422,
+    "lng": -0.0835493,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Sky+Garden+20+Fenchurch+Street+London"
+  },
+  "Barbican Centre": {
+    "lat": 51.5202077,
+    "lng": -0.0937864,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Barbican+Centre+Silk+Street+London"
+  },
+  "Bank (City of London)": {
+    "lat": 51.513388,
+    "lng": -0.0889145,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Bank+Underground+Station+London"
+  },
+  "Westbourne Grove Church": {
+    "lat": 51.5147892,
+    "lng": -0.1989223,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Westbourne+Grove+Church+Ledbury+Road+London"
+  },
+  "Trellick Tower (Careful around it; some corners can be dangerous)": {
+    "lat": 51.5238928,
+    "lng": -0.2059665,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Trellick+Tower+Golborne+Road+London"
+  },
+  "Columbia Road Flower Market": {
+    "lat": 51.529134,
+    "lng": -0.0698257,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Columbia+Road+Flower+Market+London"
+  },
+  "Broadway Market": {
+    "lat": 51.5366964,
+    "lng": -0.0617408,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Broadway+Market+London+Hackney"
+  },
+  "Spitalfields Market": {
+    "lat": 51.5196569,
+    "lng": -0.0755469,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Old+Spitalfields+Market+London"
+  },
+  "Coal Drops Yard": {
+    "lat": 51.5360313,
+    "lng": -0.1265524,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Coal+Drops+Yard+King%27s+Cross+London"
+  },
+  "Borough Market": {
+    "lat": 51.5055826,
+    "lng": -0.0904808,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Borough+Market+London"
+  },
+  "Exmouth Market": {
+    "lat": 51.525814,
+    "lng": -0.1093159,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Exmouth+Market+London"
+  },
+  "Wapping High Street": {
+    "lat": 51.5035095,
+    "lng": -0.0618968,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Wapping+High+Street+London"
+  },
+  "Brick Lane": {
+    "lat": 51.5219999,
+    "lng": -0.0716915,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Brick+Lane+London"
+  },
+  "Chiltern Street": {
+    "lat": 51.5203078,
+    "lng": -0.1555665,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Chiltern+Street+Marylebone+London"
+  },
+  "Liverpool Street": {
+    "lat": 51.5174665,
+    "lng": -0.0826359,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Liverpool+Street+City+of+London"
+  },
+  "Redchurch Street": {
+    "lat": 51.5244616,
+    "lng": -0.0745677,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Redchurch+Street+Shoreditch+London+E2"
+  },
+  "Kensington Palace Gardens": {
+    "lat": 51.5080324,
+    "lng": -0.1916518,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Kensington+Palace+Gardens+London"
+  },
+  "Portobello Road": {
+    "lat": 51.5153904,
+    "lng": -0.2046795,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Portobello+Road+London"
+  },
+  "Golborne Road": {
+    "lat": 51.5225633,
+    "lng": -0.2074569,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Golborne+Road+London+W10"
+  },
+  "New Bond Street / Old Bond Street": {
+    "lat": 51.5120603,
+    "lng": -0.1442075,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=New+Bond+Street+Mayfair+London"
+  },
+  "Brick Lane Vintage Market": {
+    "lat": 51.5207958,
+    "lng": -0.0720977,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=The+Brick+Lane+Vintage+Market+London"
+  },
+  "Aether Coffee Lab": {
+    "lat": 51.5026648,
+    "lng": -0.0135623,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Aether+Coffee+Lab+Park+Drive+London"
+  },
+  "Special Guests Coffee": {
+    "lat": 51.5191276,
+    "lng": -0.1528896,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Special+Guests+Coffee+Aybrook+Street+London"
+  },
+  "St Clair Cafe": {
+    "lat": 51.5101757,
+    "lng": -0.2102784,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=St+Clair+Cafe+Portland+Road+London"
+  },
+  "Nola Coffee": {
+    "lat": 51.4663567,
+    "lng": -0.0662381,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Nola+Coffee+Rye+Lane+Peckham+London"
+  },
+  "Cöödie": {
+    "lat": 51.4737541,
+    "lng": -0.0686353,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Coodie+Coffee+Cookie+Bar+Peckham+High+Street+London"
+  },
+  "Duck & Waffle": {
+    "lat": 51.5162529,
+    "lng": -0.0811942,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Duck+%26+Waffle+Heron+Tower+London"
+  },
+  "Plaza Khao Gaeng": {
+    "lat": 51.516275,
+    "lng": -0.1292201,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Plaza+Khao+Gaeng+Centre+Point+London"
+  },
+  "Heritage Dulwich": {
+    "lat": 51.4371497,
+    "lng": -0.0948425,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Heritage+Dulwich+Rosendale+Road+London"
+  },
+  "Blitz Memorial (Wapping)": {
+    "lat": 51.5045596,
+    "lng": -0.0680155,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Blitz+Memorial+Wapping+High+Street+London"
+  },
+  "Mudchute Park and Farm": {
+    "lat": 51.4920932,
+    "lng": -0.0104424,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Mudchute+Park+and+Farm+London"
+  },
+  "Greenwich Foot Tunnel North": {
+    "lat": 51.4865822,
+    "lng": -0.0093071,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Greenwich+Foot+Tunnel+North+Entrance+London"
+  },
+  "Lloyd's Building": {
+    "lat": 51.5130826,
+    "lng": -0.0825109,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Lloyd%27s+Building+1+Lime+Street+London"
+  },
+  "Phat Phuc": {
+    "lat": 51.4875437,
+    "lng": -0.1692042,
+    "source": "google",
+    "query": "https://maps.app.goo.gl/W2io2u3mhDs3AaX7A"
+  }
+}

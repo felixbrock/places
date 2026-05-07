@@ -1,0 +1,332 @@
+{
+  "Brick Lane Bookshop": {
+    "slug": "brick-lane-bookshop",
+    "src": "images/brick-lane-bookshop.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFGXW47fEcQrOmPLBHw7vBjSmkLGaZfO7BpUhalIk_abR_myl-g0YXkd0zjkyuYl11p3njsDi6z55r9ZlQRd8384RUpb-zmAg0OMI3H4nQrzua2p5AbrDQhZsFTnsdqOt4HD7QTIhohRGs=w408-h306-k-no"
+  },
+  "Brick Lane Vintage Market": {
+    "slug": "brick-lane-vintage-market",
+    "src": "images/brick-lane-vintage-market.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHcj5Uga9LGMsRzRRlUDvP-15JXMi8tjLm6r0dDUiU7xzHED1974IzmgAhTeTqzpC_tCYJHBzYiVF4HikuBAS2A9Sn3wA_hushRALhS-XmQGci93DgepTT9Jj0Mb6mfd6W3EQXxf4hOfEo=w408-h612-k-no"
+  },
+  "Shreeji Newsagents": {
+    "slug": "shreeji-newsagents",
+    "src": "images/shreeji-newsagents.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE6plVzikhrOuFS0iqaxMgH1MGQkKBQr4azXgPcIfgp2XYBbnAmOtAotoLNv-fPKA8gKi9lBe2P2mlVXvW2l9DIh-iCIhyi9Iu7jd7YaS7eh0YDIrK92wESShai8gQLk75fqx4=w408-h543-k-no"
+  },
+  "Eataly London": {
+    "slug": "eataly-london",
+    "src": "images/eataly-london.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxeREiblr6pX1Qrmd0AxTSZ6Vhcx5vamdczXGTcNJHMfgMW5ti4Z5SlwCSNujO0iS63MgDy1PMuySonzFHTcGz0xE4mkF706xRzTH5HbWfh80-aDmNL26RbxNw_8HBlHsel3jkIQ=w529-h298-k-no"
+  },
+  "Japan House": {
+    "slug": "japan-house",
+    "src": "images/japan-house.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwOFpxtDMaFWnCklA218uIXZF9HmRkOUWrxSfFrkI-jZDf3jZJ6y0Db9KK5ARPaUKeUd45y5DmSbvKU_pnKfA0HXVkNKGARUD3IcIFOjuA9XghqAvTAcFRNN0qDsAQzftdMucCmm7mt9mz=w544-h298-k-no"
+  },
+  "Liberty London": {
+    "slug": "liberty-london",
+    "src": "images/liberty-london.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEf6PzsBBb8p-ybuL9N8-5oCOb7CrQFred5zgEBcl5oma5qFvJOeFih5KXtgGdK4bz4ey--3YF6uTz5i13rVKrToxVtiE7cSh3r1qbOjQKlLmwIRImD_29Z8geqvIrSyelYFCNu=w1023-h298-k-no"
+  },
+  "Toconoco": {
+    "slug": "toconoco",
+    "src": "images/toconoco.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMydRzSg9EiIejIPXK3Fn5lEmvXP_kVRssAdRM20S4t3j5pGfWBUrcxBirDBlwuhYMZOJ2NpblPbQe5LFjWusQYxfK3s4Jmjxdw210tHzp45-BaqH3IU8Ew0G-efm8fl5jZy1a=w529-h298-k-no"
+  },
+  "640East": {
+    "slug": "640east",
+    "src": "images/640east.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE6ODuFIR7TCtsRcw1Te2nNmF0hqh1cAyyE_1cBVXXOlegLLYIArKEUxSUcNjsRLIVK5q5Ld0nk8AR2gh2aajPfCkkfjYoOTlNatX_0R9wuaULcgYs8dBc798I3dgtZpz-udqNi=w512-h298-k-no"
+  },
+  "Aether Coffee Lab": {
+    "slug": "aether-coffee-lab",
+    "src": "images/aether-coffee-lab.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFeQEpSbcM7eza-Z8jW_lFyDtQuVGWfmavSyiL7q5atYYEhiZ28e-ypNxyZsNiQOi88TsZGaJxVvE0anRvuDpoblUj4KD5rhvoXR0I0cWsDFlPvWs-NE3xR1vtGDK622viA7QyAuaBdNXzJ=w408-h544-k-no"
+  },
+  "Cinnamon Coffee Shop": {
+    "slug": "cinnamon-coffee-shop",
+    "src": "images/cinnamon-coffee-shop.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHIFggNV1NNb5_NK_Z79GahlSajrEUED-gNv1g7hcWtNqfXx0iKgtp1RaUeOzjomkUpie4w_FiKpYxy-bkUw8jGi8lrPOuksEXB4euoJbux3iw_lsyXLaz9WNrUZGxrmZSlOQ0H=w408-h408-k-no"
+  },
+  "WatchHouse Fitzrovia": {
+    "slug": "watchhouse-fitzrovia",
+    "src": "images/watchhouse-fitzrovia.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHqGkBJh-qA7WRvg_YJnpFtRqCxK3NrSoX9QcP-ZpIrhw8YEM7FrNnElnIecv5boSewxk079yxuyHFgOg3JpT1nRYYopxn8Bi_fn6XE9Aqx2OtcpqR0g75k0HPG_Wq2-VUzTMS7Cw=w613-h298-k-no"
+  },
+  "Special Guests Coffee": {
+    "slug": "special-guests-coffee",
+    "src": "images/special-guests-coffee.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGxKi0J1jdb6LbLxX9oi1lZrQBfafojNcKCwjkAxuM61pn8R3up8AdgEYWwosJ-uEmwSI2mTLwyEt_7Cna7330ZM592JEAi4DffogZSAfLNqhGm035NyeCpBSrlAQWeUOyIfYvZoCvzVoUr=w529-h298-k-no"
+  },
+  "WatchHouse Bermondsey": {
+    "slug": "watchhouse-bermondsey",
+    "src": "images/watchhouse-bermondsey.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFRDsPOJl2Kz4Qe7qCLyxMrV7diTaodUjRoSgD2wV2rV2eDNSyCbCL6z_b8xwjFUkOBJYRC9ej7O06IyA7IkPIAOPdfFFhICUavwHGCMF_gfbDxdUheB5Qv68o0IXhmc4P35PUl=w408-h612-k-no"
+  },
+  "St Clair Cafe": {
+    "slug": "st-clair-cafe",
+    "src": "images/st-clair-cafe.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFc20Pb6xOYA_ynZyxIEpfUBVNZp47Z3nxdwoZI-NulC7TFYSF7ddrh534mPGONOY0YEEC8XS2Cj4m8VxrFNHwHT4ZfwWz46_CaJBXiXgFym2Kq5U_8ciT9RVMxu7zRJ_1mP4USq71Iqpa3=w645-h298-k-no"
+  },
+  "Café O'Porto": {
+    "slug": "cafe-o-porto",
+    "src": "images/cafe-o-porto.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGi9x983kBnjGSSjQLSkjMU8kwctdlFQzw5fMUwUJYG_9XOZklm5lIEAcMtDfO2xO1Nq3lnsufUBRQfPNpJ5WzFRlYtWMM2IYLRt_ZRMBYjkGG6eDhpI1vRQ5XwhWYca0_kwfQ=w613-h298-k-no"
+  },
+  "Rotunda Cafe": {
+    "slug": "rotunda-cafe",
+    "src": "images/rotunda-cafe.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG8pJGcu0DC3p_jxaVJuJXY46pIYq1Yscy0mlvQ4bLki-gSE_vXxOoWkt2JzsEH0oW_b03W_ky2zZwH7H6KJUme-lfBEJUwQaZTmOzEnkL0q-Cr27iX-ORYjpL-_gsisNUWKktBLA=w529-h298-k-no"
+  },
+  "Calico Coffee": {
+    "slug": "calico-coffee",
+    "src": "images/calico-coffee.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE4PSMxmsWtASDJbrIjXf3KrC4JzAk7vbaEwOfe4_2bpK_TIAYQAV063hdeMMN0neaFlR15ngO8M6MMAXBPmOCe0DNEAfstRRbffQPYr1g2AoPrffas1f6uyAMpfiZsSQ0FkwY=w529-h298-k-no"
+  },
+  "Daydreamer": {
+    "slug": "daydreamer",
+    "src": "images/daydreamer.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF9m3bDJaROSV9EH-wbssU6CCy18PNnI7ALIReJBi1jB2HSPD9WWoYQ24dhQK7AFfyM4gYRlGoxH4jTYGb2RKkVXuxl_FSFYZmWWcxmJa8n9B5MXaZKenEFGbqEid4VS_B2UoFZcNmw0C4l=w408-h306-k-no"
+  },
+  "Nola Coffee": {
+    "slug": "nola-coffee",
+    "src": "images/nola-coffee.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFXfb7Y77pzbUBayP9nulO4MvNCeLmBYS2Dh3LoI7yqWs4T9ALgxFsYdjp3sJJ_Y8Nkp6ahQse3OEc_NozZ7fnbOrqcnGiFtwSvGSc0eNhwgKB_m17rzyWJtr6cLLJLgBDymNhPjriG-P8_=w447-h298-k-no"
+  },
+  "Cöödie": {
+    "slug": "coodie",
+    "src": "images/coodie.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG-AngynZJcMyCoAYwuXFSe2P1MufnG29XF-QJMSOx96VRp16KMHqaQfPOIpbk7vab81ulpA_gHBspcKhcBnDn9RStTYhBAMTtWRWA3KGcLLP7FRVZAgvE8PEj1sAhKAsSum-6n=w408-h544-k-no"
+  },
+  "Duck & Waffle": {
+    "slug": "duck-waffle",
+    "src": "images/duck-waffle.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGvW_JY0DxmbJeXfn0mf-Anoqf5ZqupldqJ6WIume27tjyhP_dOO9ZkjAxkRfP1djNf6dllQEusKzgH563qhoz-5vT8aJ5lahIVnoZCjnpFPJUzJlfQ3LtWZ4EAaGiG_14_wBQ=w529-h298-k-no"
+  },
+  "Smoking Goat": {
+    "slug": "smoking-goat",
+    "src": "images/smoking-goat.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEXndbO5MH_C0UenB5G8kjcXvjapYBzvr40JVC-G4b5Oi6OhNn1AyX8afgu9cuQ60gCpDEweCTzmR-jC0QxWpxqArGYrz9oQd939gQfOY_uaY5aOUQcZsf2Ez88n5VHarqJ4EWj=w446-h298-k-no"
+  },
+  "Kiln": {
+    "slug": "kiln",
+    "src": "images/kiln.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEl1t2n95ELj_fNPKqMX5QyQm4GqZtgosCUG3zZQs0rYjAsXv_bx7tBSxxYvAAtPEm7vQJ86hlKsTqTB09JsetkPGLtFR6b1qhk_HuHqdc8mgOv9ch-mX0PM5QF0doHlLsYariW=w446-h298-k-no"
+  },
+  "Plaza Khao Gaeng": {
+    "slug": "plaza-khao-gaeng",
+    "src": "images/plaza-khao-gaeng.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHMJ5zgyCLjr1ReqAfUrk1W_FdZS8oSSheqwKUhhnhKG5fkpF4ru9ZedfF-bd3cOc-wIUtMjluiPFPzM3Ho4GDmDTwcMMpMiWuPT0_5qSOTZKW3ge9YmEguNvgaUsYIojgZWSfTcFMOGMOK=w447-h298-k-no"
+  },
+  "The Eagle (Farringdon)": {
+    "slug": "the-eagle-farringdon",
+    "src": "images/the-eagle-farringdon.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFob929dRcAFYmxwqu4ANiamBjeacunBKg3MX46BvjVVNOf01kllCXvZBw6wm7lTyFHt-aACvJmNQW_QJpoM66j0e4-xiK2usCnm4OLoWMmb8wcUcjPxiGfob6q-bUS03H6-jQ=w408-h272-k-no"
+  },
+  "Cafe Tiffin (Farringdon)": {
+    "slug": "cafe-tiffin-farringdon",
+    "src": "images/cafe-tiffin-farringdon.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHSI0Du7D0hoxvjYmj2wa_cAX9rBBHYkT-xRVn1NIImMLwWrfurRxoJBSi0U7VuSYN_bW-g0dAzND7rzqP-uLFrBsMoQOiJKGQXUaA21uVJYWii9o-A4wrKqiFz5NKYN5bPqtXeDM9TQywM=w645-h298-k-no"
+  },
+  "OMA": {
+    "slug": "oma",
+    "src": "images/oma.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFsbQAUDpKw9lK70tkgEO9p8r6v1w2dxLoe3g049zXpgTjXu2qN0oblxCx6WDEbjqKoHsuiXR87asq70F66RWzZR3PaXEXgUPRpas3fRpUpn4HzXrUaENxvFcnMyU_cTxcSJf7C=w408-h541-k-no"
+  },
+  "Kricket Canary Wharf": {
+    "slug": "kricket-canary-wharf",
+    "src": "images/kricket-canary-wharf.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFuyfabjZkXnPQ4q93bKMMALjjXiV6Tr5NV7ebLOIV69cYuRwGVPPMgJYK0UppgnJNt-NLVSbx8dIRu0CY4nth8nvqEBYPf4UwFXL__cHqnE6oJ0AQxRFQR3kdlzLYe46L9WKRqeg=w434-h298-k-no"
+  },
+  "Morchella": {
+    "slug": "morchella",
+    "src": "images/morchella.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFHmSyc-mlLhk4-_Dyu2RUxEJj_ic8cKr7vDm9Ct46c-XrPlVM2NP4DqOcbodS4ung-6fcA5NWEp52pgv4N4JRXvY7zuj6VynhtD4mGuwC3lxjOC7jgY0heNv9IMXaudTmWD7fM5A=w408-h306-k-no"
+  },
+  "Kricket Brixton": {
+    "slug": "kricket-brixton",
+    "src": "images/kricket-brixton.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFnIXKpMHSJxFu-qeO5Zla959XDNRjRB4F8TxGhxfe1fddYjyfnt4wxiM78dO4d8SRn2kXeNpQWcUeu4VEVXFGEgAFnRy54HjDg7-KoTQNG13lRp4ftsMxhHvxnBlEMPZX-YNDFx2i-0mQ=w529-h298-k-no"
+  },
+  "Sporting Club London": {
+    "slug": "sporting-club-london",
+    "src": "images/sporting-club-london.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFRs-GGyFPAhDF6L4fxk11OCnsDHrLmQmlKmQ68F7e3wwLxkD0VA2E2yMbXKQRB60oWCwCpkWhtzZ3ka79GHuXFeWVI85dfrEJE7XXOYDZK2Ux9JwztbvJ2Vn2XbTCPv95KCeBziGEeGrAM=w529-h298-k-no"
+  },
+  "Naïfs": {
+    "slug": "naifs",
+    "src": "images/naifs.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGPEAby7O03T9WE1xBBso-2OLog66Lc6UARrNDQu886QT7ls4r2UhS3SdKord2EpoIfqE4ZNoo6JPVZh2A19QJsuF1XNJsz0Az67yTgM3f5qIL5PyOUw4TFrYhRwxkizjk26nhc1oV9bMxA=w408-h553-k-no"
+  },
+  "Nandine": {
+    "slug": "nandine",
+    "src": "images/nandine.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEC26IeyGqnrPT6Xz9M0zolWS6JA6NweNC78hzCc5oiEiBTDzgCRJElWMf4O9wZEXr0BbdctnaSFGv-cSKJbm-mqPCNVdjS8EcHAIUawhW1A1gC67O2QfWqomLD37pEr8-x5F4wqFy-DPA=w436-h298-k-no"
+  },
+  "Heritage Dulwich": {
+    "slug": "heritage-dulwich",
+    "src": "images/heritage-dulwich.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGaqbdON1f4KvWivWkdb_d5fEWFrv-jWgvwF3Mu5fmiKUb5U32yXHaOfua0yguZ0cVzH85sfB3LsziDKGkjFSF9SiosbI7XbMvSi17NJpi46uV-dvQqzoCzmRvoqCsGcYR3mACaRA=w529-h298-k-no"
+  },
+  "The Jackalope": {
+    "slug": "the-jackalope",
+    "src": "images/the-jackalope.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFQNDjpbFT-74roYZc9IaWH1O-CVxZ50S5jTPYkugk_cKokdsEclzX8NPnXpwoa_lSNLEBUeHlOz0jt8bmTjmC94KOxWGoewALi7yuwXPFOcJp_IV4AmdFuP6LUhokcO0DL49p4cg=w529-h298-k-no"
+  },
+  "Beigel Bake": {
+    "slug": "beigel-bake",
+    "src": "images/beigel-bake.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGV9sFeSEJ0HaKpOIS90LEwJrF2YPmcatCvKdpH98TOcfl5Oin8A0EwlceAGaYoVRi26VRocTu1NGR2UIxXZ5ka68cvgVchSZouwF7NhJyf20ec-OUFGRf24RxTg7kVsEJr8a9h=w408-h408-k-no"
+  },
+  "Lisboa Patisserie": {
+    "slug": "lisboa-patisserie",
+    "src": "images/lisboa-patisserie.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFtW_WalwoPOkAj1HqbUGydecZ2s1OEDDLsUIK372kas2RXyqvOHXsBL64x9OHsss4VLw2fgYdf7guPNArGtCeII0uvlwdMVGnMvp8DK7ZgEmgnwC-_OwqrjqcsAAWzbCTRIt0D=w408-h408-k-no"
+  },
+  "Regent's Canal": {
+    "slug": "regent-s-canal",
+    "src": "images/regent-s-canal.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF-yWxRA0QNTENhaXyKKJm_LStd09-VPit4lEe511Okvg7hsVywSXUrenQyFOACXNLB2QmOUK_hFuRtUayVlZDZUhyBG-_tHtnwkjkfrt21jbDTtvA14iWRm3Enw2TyiJfXGHrp=w408-h544-k-no"
+  },
+  "Blitz Memorial (Wapping)": {
+    "slug": "blitz-memorial-wapping",
+    "src": "images/blitz-memorial-wapping.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH605piv2-ccmdGiwllzyiC5I8lLex78eOpl0ZGi2AFoDfoVK0C0XPmsZeGv7wtskZ57oFoHox_sKuUu-j_J0Qa79AAN1VMPoZBK8FUBbM3caLpVn82j-2ItCLkHYrDBkrcbzaL=w408-h306-k-no"
+  },
+  "Hampstead Heath (and Hampstead Village)": {
+    "slug": "hampstead-heath-and-hampstead-village",
+    "src": "images/hampstead-heath-and-hampstead-village.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEilFuZPLjYiEg6dL31durOIbJb_UgG-r_jmk6Ez8BmOM8aszj01qgsoNVZPQ4PvKWrSnaKaEcdY-efhT7mjIDy2nsztWv3LOCza0M27oipfsXDD_6YCcrnrzx4RaPu35fkL94GVA=w529-h298-k-no"
+  },
+  "Highgate Cemetery": {
+    "slug": "highgate-cemetery",
+    "src": "images/highgate-cemetery.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG5dBsMp8U_u2gKAQLPxHHNJduj4Ce40i5AjU_cfmYdTE-0yQLrADGfY-i84wZvICQyvoNOEgMV3wgSqcd7vXeL1Wxfwf7E9mtRasBynAFj4JXSRLQOAzYt4eHyfUSxX8Ehqfo=w529-h298-k-no"
+  },
+  "Mudchute Park and Farm": {
+    "slug": "mudchute-park-and-farm",
+    "src": "images/mudchute-park-and-farm.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEV4_Nkxxe8zQMlwYGpl88fFJ7gIoE2-lSbc3ayd5n8anpSVLXy9x27aBOMityRd4QmrZKcM1iuKKsEs9JdzJqCcbmDbOwz6H8byakhryqFElfEx1ROrPXRADhOuwUqWJLWa7a-_A=w529-h298-k-no"
+  },
+  "Horniman Museum and Gardens": {
+    "slug": "horniman-museum-and-gardens",
+    "src": "images/horniman-museum-and-gardens.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHEiRr4gnx-Av_maX2b9GCsE9o-ccethyPlTd5GHUCXPpNYaipkeg2W8at4TdEH3jIKAsDNFnhp28kNxhVmWiYV6Zy4ePz4jxQA7ppdgmWNRXRGN4mTpVj1WfztVAE3fFwp0v1UDr404U7x=w529-h298-k-no"
+  },
+  "St Pancras Station": {
+    "slug": "st-pancras-station",
+    "src": "images/st-pancras-station.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEIKtpdfRtFM8DE-qZjfHOpr9ed0YoOxgDRQFZm8Q3DDPf0RIc1wKLIaci2jXWKuoDNKiZieW5GfPh7sv8hXwT3Xa8rK93oPnxao6VzSl1r0fZjnFd3Cs3UmS8WnlbVz3v1Azaz=w529-h298-k-no"
+  },
+  "Sky Garden": {
+    "slug": "sky-garden",
+    "src": "images/sky-garden.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFf2jtHNvL9L7wAUnOnrZP5Tx2N5w4lnvziHhsLtZr0y73pKJYcVJNkT49D-AtxgS1Jf-Ko4GclCtBQIKFRBcIdVclkfIlWlsyhRV8ShuK7WHLuU-KlgasvEENP2BhfHECxkN5vl11vVDxi=w662-h298-k-no"
+  },
+  "Barbican Centre": {
+    "slug": "barbican-centre",
+    "src": "images/barbican-centre.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAElmmxz_x67KnCnJrtZFuiLLCdNAOKA5ZqsZrtWb832320l21Ar4edYbQvqud29dKh5Gsr4l0eC8zpVky0DwhgNexZ1nGvQeMkuYL94skX8tjqoJGlpyrQIdNlMhmBVtTha2To=w408-h306-k-no"
+  },
+  "Bank (City of London)": {
+    "slug": "bank-city-of-london",
+    "src": "images/bank-city-of-london.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH8aB29ODhlo1pt9PdYtHPogqTToWHrq-BoxHcbmuXC3Aq87Y2H8cTtH_JRVf2VzaNhs5Kt464NKJeUPLDyJe-pe1WepiW555AlEbYFhsWTLUiWdyB1xjY7Mn1zaIQwReSPJ-1B=w529-h298-k-no"
+  },
+  "Westbourne Grove Church": {
+    "slug": "westbourne-grove-church",
+    "src": "images/westbourne-grove-church.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG6xaYEK_LziOeOikl2yBnEaRuL9eDXZLB7VE6j9E9etgdmSrp8tsPxU8u38hjdbwE8ltIECCmIIvIeyRW0cGO-hdQHhO0PgrkSaBO-vcSq4NxB3vTOxx7ax5Zpv-Obmxh-UUPs=w446-h298-k-no"
+  },
+  "Trellick Tower (Careful around it; some corners can be dangerous)": {
+    "slug": "trellick-tower-careful-around-it-some-corners-can-be-dangerous",
+    "src": "images/trellick-tower-careful-around-it-some-corners-can-be-dangerous.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG0xM1gq4CH0LSBKwYp2A1CJFk42aO_aqV4FZYFsuveQ4H3y5pL3q_QHgtBZvzWwstB8-qEizsB4bkXge2OqUFPvvjRxm4YtIDyhkUd8jrTsVT47wE3yUYpi1E4oKPnxe224GDuAQ=w529-h298-k-no"
+  },
+  "Greenwich Foot Tunnel North": {
+    "slug": "greenwich-foot-tunnel-north",
+    "src": "images/greenwich-foot-tunnel-north.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHnMcGkptlC292ifQd8W5upvIt2TgIZ1nmX58ItJzoZnSQawR3W5Nj01Y_Gt0L4M_hWvMOvSzJnJgHljZqGzj0zi2hi9Gl2GbopkGYF-Tpl-5_86vsPDXc06gRAq9o7Q_aifAuXFAFy_S0=w529-h298-k-no"
+  },
+  "Columbia Road Flower Market": {
+    "slug": "columbia-road-flower-market",
+    "src": "images/columbia-road-flower-market.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGFLWjtyNmSwbFNnVcBBEZ3zg8MfImwsiiAs8_6MlCLv5FS4JsRls0RBExRYbWR5fJmFtQrlRzy0PtXm9WiJM1CYgeBglZ1cD0yBhMnBU97g4Ocp0WgcIqiGDH7uuJ-vC_Gr-C94yt3a3I6=w408-h306-k-no"
+  },
+  "Broadway Market": {
+    "slug": "broadway-market",
+    "src": "images/broadway-market.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF5AlfmlC2-4wcnKYLT92J9kkIaOxkq89qv592JnqHux4kvxwJE_dMpwFzcmuM5AS7hZpSpahZIaY2XY2uaaYFTpSbfyR1PeZUzmxOidsSgCJr94VyfAz3-qjTMi3V_8wODf3Y=w408-h288-k-no"
+  },
+  "Spitalfields Market": {
+    "slug": "spitalfields-market",
+    "src": "images/spitalfields-market.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEDNtJD6Y4C8r1Vg3gmgR97kt_oLaGVrYyBvBPUO_WernJv5_9QBBcWLpcBLsVOKpT5t1_yZ5D8BDKMTJw4qBnurm1bgBYnhhG8ldwrYzZ49JgSUnURvT7H8XtYFjf51XM-RcANSQi1T9T5=w408-h306-k-no"
+  },
+  "Coal Drops Yard": {
+    "slug": "coal-drops-yard",
+    "src": "images/coal-drops-yard.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEqNsEN-udcSXxOYhh0dgaEb5dJQUaKfRWoh_8-qV1FqpAYZ4toXV1iXVejzvKXMjW55alfB1cbv_YHS_aQzEZ6lOcgVuG4w8yqHNM4Hx-lTDRcKH-AH_FvTi9jwPrWZ2PxYT6csBuYxrrm=w662-h298-k-no"
+  },
+  "Borough Market": {
+    "slug": "borough-market",
+    "src": "images/borough-market.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGoSY-NHx0vSKDKY1wjW3GWfShaAxAfiYlsufzD7w45iQSdBb96kFMTqSdl5L9uu9Ckw5lkcjzDlp6CPcm2bb4UNnteSJEEeAvE2LKlqsDDzwQT9Idpr53XLwLv2r9WzpLS64OFh0ukKmA=w529-h298-k-no"
+  },
+  "Exmouth Market": {
+    "slug": "exmouth-market",
+    "src": "images/exmouth-market.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE67XHXnbyWhUhkgTyOC5T1-8wUkB8ZDYpRDXVa36BILIdGZc4ZMd3n_e0ao-MxTRJ--mb2vrn5o2v1zOKKAqXu41OtLzPtgBkqBVPVHQl2LX14MWFVw166oCgb2FvT8vQJ6vHz=w360-h640-k-no"
+  },
+  "Wapping High Street": {
+    "slug": "wapping-high-street",
+    "src": "images/wapping-high-street.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG6B8PTK0vVZyzMGKyqdx9UgXUFBOiWeXIhTdLcbeZ8khf-mFl4c6BYPy0lnd6pf0wP2EUomC2nWEbThcoXZYxPq7-h9uvDkqRF4RaPWYh9jiPX0K6aGM3FcaR0dfnShiJ4PsIEfg=w408-h544-k-no"
+  },
+  "Brick Lane": {
+    "slug": "brick-lane",
+    "src": "images/brick-lane.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGWS54karcBZ5xrVNVh_2Xb9o92XE0USbFpoJdf5QD3-H900QbZsegVUg3ZiZducVems1w3ohhoFjQMqpEcmyrEOVXZ1kogT9e2mtOR5gTZoN9SnSInC_Da41YkVgnVaGEpUtitZw=w408-h306-k-no"
+  },
+  "Chiltern Street": {
+    "slug": "chiltern-street",
+    "src": "images/chiltern-street.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGH3V6f7FKdZwNAQTD3EPXOFdlyk2mHtIHbR8qZG-gS9ZIu_MzLju4Xodl00PgtT2MVOOL_Gh6urfhrw9hClEsSz9ruVxIZlRCb59qhvd8S9MDeQ5UGglcO8Dqd7JA8OtwFUkjP=w408-h725-k-no"
+  },
+  "Liverpool Street": {
+    "slug": "liverpool-street",
+    "src": "images/liverpool-street.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHq2XpLlLQArUkT64-qaMK3Pj1vbhhWqzrr5U_npMlelhR_HH3LhybxoifuUKKRttA6tPjpsXA4Bus0SIw02AHe-ZhPsOHSHsf5jRGklvmKoPLa25ufQRGoCJS4SFHPNOLYEq1YpSm_Z8_e=w408-h306-k-no"
+  },
+  "Redchurch Street": {
+    "slug": "redchurch-street",
+    "src": "images/redchurch-street.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFdL_HHXbWshxC4bxPc9gneHSE9pWDdm9uMu3WHOzZIZlArh35ig0CbEFgXjjFHLVqeKwhreIwh_Wza4z2TorCfdRbkpYbmy8XCVjkBbpYPcjNjxABejUXPn6YIFRZN60Lw8VTX=w360-h480-k-no"
+  },
+  "Kensington Palace Gardens": {
+    "slug": "kensington-palace-gardens",
+    "src": "images/kensington-palace-gardens.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFSIlvCDFx9o0YFJx1A5UyGO6tkkZF0dQUHSbf2uw5NhrTNqZLWtO3cxxW1kkk-Nadzlk1ePLhMoWnv470zsi9QroSJ6BWz-a2_Yto0x8-SVsx-mYAxRixTzq3t3vdf8J4GiwQLHJDeUYTx=w408-h306-k-no"
+  },
+  "Portobello Road": {
+    "slug": "portobello-road",
+    "src": "images/portobello-road.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGMViRloP0HCkBNQd26oKZbi5ID-HBtYTByjRYZYnD8y5QpMe-XdQHSs1pcqmNPQAnGACoDmbCsZrKQ2F8TKcuWNRMcv7ZiLfKH5mAlnWttvS5ckNBiHChzHi20N5x06lxPPVpu=w408-h306-k-no"
+  },
+  "Golborne Road": {
+    "slug": "golborne-road",
+    "src": "images/golborne-road.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE8kih_YDSgfYrCwwvZQlw_AxL5bClxpWj0NtRl0ni5LOh5tfR3gPe37zPSrcQRB8XCmjoDzs8gCQfkUEeTwCe0-As1-I8Alk6F5DAenVafq5LB09p7bg6c3ND2fOTc0rf_bzee=w408-h541-k-no"
+  },
+  "New Bond Street / Old Bond Street": {
+    "slug": "new-bond-street-old-bond-street",
+    "src": "images/new-bond-street-old-bond-street.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHDcSEK2KoPW9GhWMZHXnZR1s4ZEbcMZ-jHc33iEVfFwd-ITX8nePWFpT1ytwNMLyns6sZl1yxMHYv3a8UKLujxQAeY774clSr5u3UB8ImGd8T_gEGQT_ABtgf7khsH52hJdos=w408-h306-k-no"
+  },
+  "Lloyd's Building": {
+    "slug": "lloyd-s-building",
+    "src": "images/lloyd-s-building.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF40o9rHk0kxVRC7IAgk8XlXu9qeTz5wWi-LiBqsmEtu_9ApLUTTsRgqA0Drk1Wveu51Q5NEznM4JwV9AAfJCj8gDp75GO78aIhKJGK10hj5953i2hOFK0lEeSgXBBR_ocVpxP8=w408-h272-k-no"
+  }
+}
