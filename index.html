@@ -1172,8 +1172,11 @@
       border-top: 1px solid var(--ink);
       border-bottom: 1px solid var(--ink);
     }
-    /* On mobile the filter bar would eat the whole viewport — keep it inline */
-    .filters-wrap { position: static; }
+    /* On mobile the filter bar would eat the whole viewport — keep it inline.
+       Use `relative` (not `static`) so its z-index: 30 still establishes a
+       stacking context above the sticky map; otherwise the floating chip /
+       search overlays would render *behind* the map. */
+    .filters-wrap { position: relative; }
     /* Pull split out of wrap padding so map can be edge-to-edge sticky */
     .wrap > .split { margin-left: -18px; margin-right: -18px; }
     .wrap > .split > .col-list { padding: 0 18px; }
