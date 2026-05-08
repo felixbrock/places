@@ -1,0 +1,22 @@
+- generic "Google Maps" [ref=e2]:
+  - generic [ref=e3]:
+    - application [ref=e8]
+    - generic [ref=e11]:
+      - list [ref=e14]:
+        - listitem [ref=e15]:
+          - button "Menu" [ref=e16] [cursor=pointer]:
+            - generic [ref=e18]: 
+        - listitem [ref=e19]:
+          - button "Saved" [ref=e20] [cursor=pointer]:
+            - generic [ref=e22]: 
+            - generic [ref=e24]: Saved
+        - listitem [ref=e25]:
+          - button "Recents" [disabled] [ref=e26]:
+            - generic [ref=e28]: 
+            - generic [ref=e30]: Recents
+        - listitem [ref=e32]:
+          - button "Get app" [ref=e33] [cursor=pointer]:
+            - generic [ref=e35]: 
+            - generic [ref=e37]: Get app
+      - button "Collapse side panel" [ref=e43] [cursor=pointer]:
+        - generic [ref=e44]: 

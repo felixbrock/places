@@ -146,6 +146,17 @@
     line-height: 1;
   }
 
+  /* Row holding the Type/Area/Tag tabs on the left and the search-toggle on the right.
+     Keeps the filter band compact: chips and search bar only appear when the user
+     opens them. */
+  .tabs-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+  }
+
   .filter-tabs {
     display: inline-flex;        /* hug content instead of stretching to full width */
     gap: 0;
@@ -156,6 +167,69 @@
     width: max-content;
     max-width: 100%;
   }
+
+  /* Icon-only search toggle. Placed at the end of .tabs-row so it sits next to the
+     filter tabs but visually distinct (square instead of pill). Inverted styling
+     for the slate band is in the .filters-wrap overrides further down. */
+  .search-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--ink);
+    border-radius: 2px;
+    background: var(--bg);
+    color: var(--ink-quiet);
+    cursor: pointer;
+    transition: background 0.12s ease, color 0.12s ease;
+    margin-left: auto;            /* push to right end of tabs-row */
+    flex-shrink: 0;
+  }
+  .search-toggle:hover { background: var(--bg-soft); color: var(--ink); }
+  .search-toggle.is-active {
+    background: var(--ink);
+    color: var(--bg);
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 12px;
+    padding: 6px 10px;
+    background: var(--bg);
+    border: 1px solid var(--ink);
+    border-radius: 2px;
+  }
+  .search-bar[hidden] { display: none; }
+  .search-bar-icon { color: var(--ink-quiet); flex-shrink: 0; }
+  .search-bar input {
+    flex: 1;
+    min-width: 0;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-family: var(--mono);
+    font-size: 12.5px;
+    letter-spacing: 0.01em;
+    color: var(--ink);
+    padding: 4px 0;
+  }
+  .search-bar input::placeholder { color: var(--muted); }
+  .search-clear {
+    background: none;
+    border: none;
+    color: var(--ink-quiet);
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 1;
+    padding: 4px 6px;
+    border-radius: 2px;
+    transition: color 0.14s ease, background 0.14s ease;
+    flex-shrink: 0;
+  }
+  .search-clear:hover { color: var(--ink); background: var(--bg-soft); }
 
   .tab {
     font-family: var(--mono);
@@ -256,6 +330,9 @@
   }
   .chips.is-collapsed { display: none; }
   .chips.tab-panel[hidden] { display: none; }
+  /* Breathing room between the tabs row and the expanded chip panel below it.
+     Only applies when the panel is visible, so collapsed state stays compact. */
+  .chips.tab-panel:not([hidden]) { margin-top: 12px; }
 
   .chip {
     display: inline-flex;
@@ -364,8 +441,11 @@
   .col-list { min-width: 0; }
   .col-map {
     position: sticky;
-    top: calc(var(--filter-h, 132px) + 16px);
-    height: calc(100vh - var(--filter-h, 132px) - 36px);
+    /* Match the natural top of the column (filter-h + filters-wrap bottom margin)
+       so the map locks in place from the very first pixel of scroll — it should
+       never appear to slide before becoming sticky. */
+    top: calc(var(--filter-h, 132px) + 24px);
+    height: calc(100vh - var(--filter-h, 132px) - 44px);
     min-height: 480px;
     border-radius: 2px;
     overflow: hidden;
@@ -832,6 +912,26 @@
   }
   .entry:hover .entry-num, .entry.is-focused .entry-num { color: var(--ink); }
 
+  /* Persistent selection — set on click (list entry or map pin) and held until
+     the user clicks somewhere else or closes the info card. Visibly stronger
+     than the transient hover/focus state so the user can always see which place
+     they're focused on. */
+  .entry.is-selected,
+  .entry.is-selected:hover {
+    background: #fff5c2;
+  }
+  .entry.is-selected::before {
+    content: "";
+    position: absolute;
+    left: -14px;
+    top: 10px;
+    bottom: 10px;
+    width: 3px;
+    background: var(--ink);
+  }
+  .entry.is-selected .entry-num { color: var(--ink); font-weight: 700; }
+  .entry.is-selected .entry-name { font-weight: 700; }
+
   .entry-num {
     font-family: var(--mono);
     font-size: 10.5px;
@@ -1138,10 +1238,27 @@
   /* ───────────── COLOUR INVERSIONS INSIDE THE SLATE FILTER BAND ───────────── */
   /* Tabs are inverted (solid white plate) so they read as collection nav rather
      than filter chips. Chips below stay as outlined on the slate. */
+  .filters-wrap .tabs-row { margin-bottom: 0; }
   .filters-wrap .filter-tabs {
     border-color: var(--bg);
     background: var(--bg);
-    margin-bottom: 18px;          /* clear breathing room from the chip rows below */
+  }
+  /* Inverted search toggle inside the slate band — solid white plate to match the
+     tab pill, dark fill when expanded. */
+  .filters-wrap .search-toggle {
+    border-color: var(--bg);
+    background: var(--bg);
+    color: var(--accent);
+  }
+  .filters-wrap .search-toggle:hover { background: var(--bg-soft); color: var(--accent); }
+  .filters-wrap .search-toggle.is-active {
+    background: var(--accent);
+    color: var(--bg);
+    border-color: var(--bg);
+  }
+  .filters-wrap .search-bar {
+    background: var(--bg);
+    border-color: var(--bg);
   }
   .filters-wrap .tab {
     background: transparent;
@@ -1233,16 +1350,33 @@
         </a>
       </div>
 
-      <div class="filter-tabs" role="tablist" aria-label="Filter category">
-        <button class="tab is-active" data-tab="type" role="tab" aria-selected="true" aria-controls="typeChips">
-          Type<span class="tab-badge" id="typeBadge" hidden></span>
+      <div class="tabs-row">
+        <div class="filter-tabs" role="tablist" aria-label="Filter category">
+          <button class="tab" data-tab="type" role="tab" aria-selected="false" aria-expanded="false" aria-controls="typeChips">
+            Type<span class="tab-badge" id="typeBadge" hidden></span>
+          </button>
+          <button class="tab" data-tab="area" role="tab" aria-selected="false" aria-expanded="false" aria-controls="areaChips">
+            Area<span class="tab-badge" id="areaBadge" hidden></span>
+          </button>
+          <button class="tab" data-tab="tag" role="tab" aria-selected="false" aria-expanded="false" aria-controls="tagChips">
+            Tag<span class="tab-badge" id="tagBadge" hidden></span>
+          </button>
+        </div>
+        <button class="search-toggle" id="searchToggle" aria-label="Search places" aria-expanded="false" aria-controls="searchBar">
+          <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
+            <circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+            <path d="M11 11 L14.5 14.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          </svg>
         </button>
-        <button class="tab" data-tab="area" role="tab" aria-selected="false" aria-controls="areaChips">
-          Area<span class="tab-badge" id="areaBadge" hidden></span>
-        </button>
-        <button class="tab" data-tab="tag" role="tab" aria-selected="false" aria-controls="tagChips">
-          Tag<span class="tab-badge" id="tagBadge" hidden></span>
-        </button>
+      </div>
+
+      <div class="search-bar" id="searchBar" hidden>
+        <svg class="search-bar-icon" viewBox="0 0 16 16" width="13" height="13" aria-hidden="true">
+          <circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
+          <path d="M11 11 L14.5 14.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg>
+        <input type="text" id="searchInput" placeholder="Search names, descriptions, tags…" autocomplete="off" spellcheck="false" />
+        <button class="search-clear" id="searchClear" aria-label="Clear search" hidden>✕</button>
       </div>
 
       <div class="active-filters" id="activeFilters" hidden>
@@ -1250,7 +1384,7 @@
         <div class="active-chips" id="activeChips"></div>
       </div>
 
-      <div class="chips tab-panel" id="typeChips" role="tabpanel"></div>
+      <div class="chips tab-panel" id="typeChips" role="tabpanel" hidden></div>
       <div class="chips tab-panel" id="areaChips" role="tabpanel" hidden></div>
       <div class="chips tab-panel" id="tagChips" role="tabpanel" hidden></div>
 
@@ -1307,7 +1441,7 @@ const AREA_TAGS = new Set([
   "clerkenwell", "brixton", "camberwell", "wapping", "hackney",
   "bethnal-green", "hampstead", "highgate", "forest-hill", "kings-cross",
   "southwark", "dulwich", "mayfair", "notting-hill", "city",
-  "spitalfields", "river-thames",
+  "spitalfields", "river-thames", "willesden", "finsbury-park",
 ]);
 
 (async function () {
@@ -1375,13 +1509,16 @@ const AREA_TAGS = new Set([
     markers: new Map(), // entry uid → leaflet marker
     entryEls: new Map(), // entry uid → DOM element
     focusedUid: null,
+    selectedUid: null,    // persistent click-selection (separate from hover-driven focusedUid)
     mapBounds: null,
     useMapBounds: false,        // becomes true after the user moves/zooms the map
     suppressMoveEnd: false,     // ignore moveend during programmatic flights
     tileLayers: { map: null, satellite: null },
     initialBounds: null,        // bounds covering all markers, used by reset
     images: {},                 // image manifest from images.json: name → {slug, src}
-    activeTab: "type",          // which filter tab is currently visible: "type" | "area" | "tag"
+    activeTab: null,            // which filter chip panel is expanded: "type" | "area" | "tag" | null (collapsed)
+    searchOpen: false,          // whether the search bar is visible
+    searchQuery: "",            // active fuzzy-search query (lowercased)
     userMarker: null,           // Leaflet marker for the user's current location, if known
   };
 
@@ -1412,7 +1549,26 @@ const AREA_TAGS = new Set([
       const c = state.coords[entry.name];
       if (c && !state.mapBounds.contains([c.lat, c.lng])) return false;
     }
+    if (!opts.ignoreSearch && state.searchQuery) {
+      if (!matchesSearch(entry, secCategory, state.searchQuery)) return false;
+    }
     return true;
+  }
+
+  // Lightweight fuzzy match: split the query into whitespace-separated tokens and
+  // require each token to appear (case-insensitive substring) in the haystack
+  // formed from the place's name, description, tags, and section category.
+  // Avoids any Levenshtein machinery — substring-AND covers typical "find that
+  // place" queries without surprising matches.
+  function matchesSearch(entry, secCategory, q) {
+    const haystack = (
+      entry.name + " " +
+      (entry.description || "") + " " +
+      entry.tags.join(" ") + " " +
+      secCategory
+    ).toLowerCase();
+    const tokens = q.split(/\s+/).filter(Boolean);
+    return tokens.every(tok => haystack.includes(tok));
   }
 
   // Chip count helpers: how many entries would match if the user *also* picked this filter?
@@ -1513,16 +1669,20 @@ const AREA_TAGS = new Set([
     }
   }
 
+  // Click on a tab toggles its chip panel: clicking the active tab collapses it,
+  // clicking a different tab switches the expansion. Pass null to force collapsed.
   function switchTab(tab) {
-    state.activeTab = tab;
-    document.querySelectorAll(".tab").forEach(t => {
-      const isActive = t.dataset.tab === tab;
+    const next = state.activeTab === tab ? null : tab;
+    state.activeTab = next;
+    document.querySelectorAll(".tab[data-tab]").forEach(t => {
+      const isActive = t.dataset.tab === next;
       t.classList.toggle("is-active", isActive);
       t.setAttribute("aria-selected", isActive ? "true" : "false");
+      t.setAttribute("aria-expanded", isActive ? "true" : "false");
     });
-    document.getElementById("typeChips").hidden = tab !== "type";
-    document.getElementById("areaChips").hidden = tab !== "area";
-    document.getElementById("tagChips").hidden = tab !== "tag";
+    document.getElementById("typeChips").hidden = next !== "type";
+    document.getElementById("areaChips").hidden = next !== "area";
+    document.getElementById("tagChips").hidden = next !== "tag";
   }
 
   function renderTabBadges() {
@@ -1586,7 +1746,11 @@ const AREA_TAGS = new Set([
 
   function updateMeta() {
     const reset = document.getElementById("resetBtn");
-    reset.hidden = state.selectedTypes.size === 0 && state.selectedAreas.size === 0 && state.selectedTags.size === 0;
+    reset.hidden =
+      state.selectedTypes.size === 0 &&
+      state.selectedAreas.size === 0 &&
+      state.selectedTags.size === 0 &&
+      !state.searchQuery;
   }
 
   // ───── Entries ─────
@@ -1620,6 +1784,7 @@ const AREA_TAGS = new Set([
         const id = uid(sec.category, entry.name);
         const el = document.createElement("article");
         el.className = "entry animate-in";
+        if (state.selectedUid === id) el.classList.add("is-selected");
         el.dataset.uid = id;
         el.style.animationDelay = `${Math.min(i * 0.018, 0.3)}s`;
 
@@ -1672,6 +1837,7 @@ const AREA_TAGS = new Set([
         el.addEventListener("mouseleave", () => unfocusEntry(id));
         el.addEventListener("click", (ev) => {
           if (ev.target.closest("a, .entry-tag, .entry-img")) return; // image opens lightbox; tags/links do their own thing
+          selectEntry(id);
           focusEntry(id, { openPopup: true });
         });
 
@@ -1773,6 +1939,19 @@ const AREA_TAGS = new Set([
       const entry = sec?.entries.find(e => e.name === name);
       if (entry && sec) showInfoCard(entry, sec);
     }
+  }
+
+  // Persistent selection. Survives mouseleave so the user can always see which
+  // place they're focused on after clicking either the list entry or the pin.
+  function selectEntry(id) {
+    if (state.selectedUid && state.selectedUid !== id) clearSelection();
+    state.selectedUid = id;
+    state.entryEls.get(id)?.classList.add("is-selected");
+  }
+  function clearSelection() {
+    if (!state.selectedUid) return;
+    state.entryEls.get(state.selectedUid)?.classList.remove("is-selected");
+    state.selectedUid = null;
   }
 
   // ───── Map info card (replaces Leaflet popups) ─────
@@ -1882,6 +2061,7 @@ const AREA_TAGS = new Set([
     marker.on("click", () => {
       const el = state.entryEls.get(id);
       if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+      selectEntry(id);
       focusEntry(id, { openPopup: true });
     });
     marker.on("mouseover", () => focusEntry(id));
@@ -1901,6 +2081,13 @@ const AREA_TAGS = new Set([
       wheelPxPerZoomLevel: 75,
     });
     state.map = map;
+
+    // Click on empty map background → clear the persistent selection and dismiss
+    // the info card. Marker clicks don't bubble to map click in Leaflet.
+    map.on("click", () => {
+      hideInfoCard();
+      clearSelection();
+    });
 
     // Monochrome base (Carto Positron — clean black-and-white) for the B&W aesthetic
     state.tileLayers.map = L.tileLayer(
@@ -2149,6 +2336,12 @@ const AREA_TAGS = new Set([
       state.selectedTypes.clear();
       state.selectedAreas.clear();
       state.selectedTags.clear();
+      // Reset also clears any active search query and collapses the search bar.
+      state.searchQuery = "";
+      const searchInputEl = document.getElementById("searchInput");
+      if (searchInputEl) searchInputEl.value = "";
+      const searchClearEl = document.getElementById("searchClear");
+      if (searchClearEl) searchClearEl.hidden = true;
       renderTypeChips(); renderAreaChips(); renderTagChips();
       renderTabBadges(); renderActiveFilters();
       updateMeta();
@@ -2174,8 +2367,60 @@ const AREA_TAGS = new Set([
       t.addEventListener("click", () => switchTab(t.dataset.tab));
     });
 
-    // Map info card close
-    document.getElementById("infoClose")?.addEventListener("click", hideInfoCard);
+    // Search bar — toggle visibility, fuzzy-search entries on input.
+    const searchToggle = document.getElementById("searchToggle");
+    const searchBar = document.getElementById("searchBar");
+    const searchInput = document.getElementById("searchInput");
+    const searchClear = document.getElementById("searchClear");
+
+    function setSearchOpen(open) {
+      state.searchOpen = open;
+      searchBar.hidden = !open;
+      searchToggle.classList.toggle("is-active", open);
+      searchToggle.setAttribute("aria-expanded", open ? "true" : "false");
+      if (open) {
+        searchInput.focus();
+      } else if (state.searchQuery) {
+        // Clear active query when collapsing the search bar so filtering doesn't
+        // silently persist while the input is invisible.
+        searchInput.value = "";
+        state.searchQuery = "";
+        searchClear.hidden = true;
+        applyFilterChange();
+      }
+    }
+    searchToggle.addEventListener("click", () => setSearchOpen(!state.searchOpen));
+    let searchTimer = null;
+    searchInput.addEventListener("input", () => {
+      const q = searchInput.value.trim().toLowerCase();
+      searchClear.hidden = !q;
+      if (q === state.searchQuery) return;
+      // Debounce so the map doesn't fly-to-bounds on every keystroke.
+      clearTimeout(searchTimer);
+      searchTimer = setTimeout(() => {
+        state.searchQuery = q;
+        applyFilterChange();
+      }, 200);
+    });
+    searchClear.addEventListener("click", () => {
+      searchInput.value = "";
+      searchClear.hidden = true;
+      if (state.searchQuery) {
+        state.searchQuery = "";
+        applyFilterChange();
+      }
+      searchInput.focus();
+    });
+    // Esc inside the search input closes the search bar.
+    searchInput.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") setSearchOpen(false);
+    });
+
+    // Map info card close — also clears the persistent selection.
+    document.getElementById("infoClose")?.addEventListener("click", () => {
+      hideInfoCard();
+      clearSelection();
+    });
 
     // Lightbox close handlers — only the empty overlay area closes; children (image,
     // caption, link, close button) handle their own clicks.

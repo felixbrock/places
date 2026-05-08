@@ -328,5 +328,44 @@
     "slug": "lloyd-s-building",
     "src": "images/lloyd-s-building.jpg",
     "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF40o9rHk0kxVRC7IAgk8XlXu9qeTz5wWi-LiBqsmEtu_9ApLUTTsRgqA0Drk1Wveu51Q5NEznM4JwV9AAfJCj8gDp75GO78aIhKJGK10hj5953i2hOFK0lEeSgXBBR_ocVpxP8=w408-h272-k-no"
+  },
+  "Phat Phuc Noodle Bar": {
+    "slug": "phat-phuc-noodle-bar",
+    "src": "images/phat-phuc-noodle-bar.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFOFApp3dyTyBYYkoRc_vRjhbb4f7gllCAWnvlvBT49lx2B0ayzrFWZbK6JnhVq_RSuMHLUG4cHAQyBQiwGejdBiqlrZrhyjkyBmSg7BS5sfn6bvfkbO5J_2qAtoOs4pj6UmqHqhA=w408-h306-k-no"
+  },
+  "Sydenham Hill Wood": {
+    "slug": "sydenham-hill-wood",
+    "src": "images/sydenham-hill-wood.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHqSmV6S2MyBicOtROOKJBq0Oq70Q2EyiYhszPZaMI2aJVmmW8vQqnhiQD_zMelOD6FjlO-1m0U6M2DIRqZXabmC6pRwHWJuv1uf7YflMN6ayeD1X7CeN5U7oeTWC7JVSH9w3_I=w447-h298-k-no"
+  },
+  "Village Books": {
+    "slug": "village-books",
+    "src": "images/village-books.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGmoi1kZmOCJ6Z7y172EgQHTetOa83Zm-r58pUM09X6bMz7BieLKD-Gnrg6ktVMUkRKNP9_JR7MfJ1jgLoVeCkjdCqWhgb6Dt3_tAHdNTdnPDDFeYdm52QpsWpeTFbmlj7tsjyD2IXIbfAn=w408-h299-k-no"
+  },
+  "Anjanaas": {
+    "slug": "anjanaas",
+    "src": "images/anjanaas.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHpTGA1Luv6zknwWpQyCjDBKP7UrmMAKzqIerrHJ2xYnFSCqc5NuOdQJh3iWs8LSkfIez4ahReoIRniSjKaQvKY2r_joA63m1VWnicpAjHTcJHq_6MvxW9vIjiWtof2VV7HgpbzDA=w529-h298-k-no"
+  },
+  "Vijay": {
+    "slug": "vijay",
+    "src": "images/vijay.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEwhKC42bwKN2F-eYw39BRbDUHv2lm7Bm0bVCbGq8oR36eiSLambmXAihFyFSsr27EP0o_emaTWLRq5KjC0V3a5RgY1fwAw1zldxFdqyHu2M4LcpyQbSkbYFsEc7ywtZ2ctmpW3=w408-h544-k-no"
+  },
+  "Bona": {
+    "slug": "bona",
+    "src": "images/bona.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF2C93KUUd7QqxOeGJB_9LHLpWjmIc1GspkyDZhtQ1AmWOYabha9H3AaTTWB88Xkm55l08G2UyAZTmMPcYezrtE4YPh90I-KsombTmXSgfx2K5MlwR-bTsYJ9qWfyD6-_NACU4=w408-h544-k-no"
+  },
+  "Parkland Walk": {
+    "slug": "parkland-walk",
+    "src": "images/parkland-walk.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEVWChoXb2h8uMoOhb4GeQOCAvjqFukhHui47GJ6lgcQ1vQ99YApb74S0cVYzKKxEFYLdMV_akF99ROEH0I6PbIvOaVKIYmxGReQrhENFNt8mWiHfDzPQa6i78VSjgT_Q3qYls=w408-h544-k-no"
+  },
+  "Green Chain Walk": {
+    "slug": "green-chain-walk",
+    "src": null
   }
 }

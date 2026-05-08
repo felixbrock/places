@@ -1,0 +1,1089 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - heading "Felix's list — A guide to non-obvious London highlights" [level=1] [ref=e6]
+    - generic [ref=e7]:
+      - generic [ref=e8]:
+        - strong [ref=e9]: Felix's list
+        - text: — A guide to non-obvious London highlights
+      - link "Google Maps list ↗" [ref=e10] [cursor=pointer]:
+        - /url: https://maps.app.goo.gl/TanA1A3spUNxBKoNA
+        - generic [ref=e11]: Google Maps list
+        - generic [ref=e12]: ↗
+    - tablist "Filter category" [ref=e13]:
+      - tab "Type" [selected] [ref=e14] [cursor=pointer]
+      - tab "Area" [ref=e15] [cursor=pointer]
+      - tab "Tag" [ref=e16] [cursor=pointer]
+    - tabpanel [ref=e17]:
+      - button "Shops 6" [ref=e18] [cursor=pointer]:
+        - generic [ref=e19]: Shops
+        - generic [ref=e20]: "6"
+      - button "Cafes 14" [ref=e21] [cursor=pointer]:
+        - generic [ref=e22]: Cafes
+        - generic [ref=e23]: "14"
+      - button "Restaurants 16" [ref=e24] [cursor=pointer]:
+        - generic [ref=e25]: Restaurants
+        - generic [ref=e26]: "16"
+      - button "Street Food 2" [ref=e27] [cursor=pointer]:
+        - generic [ref=e28]: Street Food
+        - generic [ref=e29]: "2"
+      - button "Nature 7" [ref=e30] [cursor=pointer]:
+        - generic [ref=e31]: Nature
+        - generic [ref=e32]: "7"
+      - button "Buildings/Architecture 8" [ref=e33] [cursor=pointer]:
+        - generic [ref=e34]: Buildings/Architecture
+        - generic [ref=e35]: "8"
+      - button "Markets 6" [ref=e36] [cursor=pointer]:
+        - generic [ref=e37]: Markets
+        - generic [ref=e38]: "6"
+      - button "Streets 9" [ref=e39] [cursor=pointer]:
+        - generic [ref=e40]: Streets
+        - generic [ref=e41]: "9"
+    - generic [ref=e43]: 68 places
+  - generic [ref=e45]:
+    - main [ref=e46]:
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - generic [ref=e49]:
+            - generic [ref=e50]: № 01
+            - heading "Shops" [level=2] [ref=e51]
+            - generic [ref=e52]: 6 places
+          - generic [ref=e53]:
+            - article [ref=e54] [cursor=pointer]:
+              - generic [ref=e55]: "01"
+              - generic [ref=e57]:
+                - heading "Brick Lane Bookshop ↗" [level=3] [ref=e58]:
+                  - link "Brick Lane Bookshop ↗" [ref=e59]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Brick+Lane+Bookshop+London
+                - paragraph [ref=e60]: Independent East End bookshop on Brick Lane with a strong local-history and London-writing section.
+                - generic [ref=e61]:
+                  - generic [ref=e62]: shopping
+                  - generic [ref=e63]: / books
+                  - generic [ref=e64]: / brick-lane
+            - article [ref=e65] [cursor=pointer]:
+              - generic [ref=e66]: "02"
+              - generic [ref=e68]:
+                - heading "Brick Lane Vintage Market ↗" [level=3] [ref=e69]:
+                  - link "Brick Lane Vintage Market ↗" [ref=e70]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=The+Brick+Lane+Vintage+Market+London
+                - paragraph [ref=e71]: Weekend basement market under the Old Truman Brewery packed with vintage clothing stalls.
+                - generic [ref=e72]:
+                  - generic [ref=e73]: shopping
+                  - generic [ref=e74]: / vintage
+                  - generic [ref=e75]: / market
+                  - generic [ref=e76]: / brick-lane
+            - article [ref=e77] [cursor=pointer]:
+              - generic [ref=e78]: "03"
+              - generic [ref=e80]:
+                - heading "Shreeji Newsagents ↗" [level=3] [ref=e81]:
+                  - link "Shreeji Newsagents ↗" [ref=e82]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Shreeji+Newsagents+Chiltern+Street+London
+                - paragraph [ref=e83]: Marylebone newsagent on Chiltern Street stocking an exceptional range of international magazines and design titles.
+                - generic [ref=e84]:
+                  - generic [ref=e85]: shopping
+                  - generic [ref=e86]: / magazines
+                  - generic [ref=e87]: / marylebone
+            - article [ref=e88] [cursor=pointer]:
+              - generic [ref=e89]: "04"
+              - generic [ref=e91]:
+                - heading "Eataly London ↗" [level=3] [ref=e92]:
+                  - link "Eataly London ↗" [ref=e93]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Eataly+London
+                - paragraph [ref=e94]: Italian food hall, deli and restaurants near Liverpool Street.
+                - generic [ref=e95]:
+                  - generic [ref=e96]: shopping
+                  - generic [ref=e97]: / food
+                  - generic [ref=e98]: / italian
+                  - generic [ref=e99]: / liverpool-street
+            - article [ref=e100] [cursor=pointer]:
+              - generic [ref=e101]: "05"
+              - generic [ref=e103]:
+                - heading "Japan House ↗" [level=3] [ref=e104]:
+                  - link "Japan House ↗" [ref=e105]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Japan+House+London+Kensington+High+Street
+                - paragraph [ref=e106]: Japanese cultural and design space on Kensington High Street — exhibitions, shop, basement restaurant.
+                - generic [ref=e107]:
+                  - generic [ref=e108]: shopping
+                  - generic [ref=e109]: / japanese
+                  - generic [ref=e110]: / design
+                  - generic [ref=e111]: / kensington
+                  - generic [ref=e112]: / free
+            - article [ref=e113] [cursor=pointer]:
+              - generic [ref=e114]: "06"
+              - generic [ref=e116]:
+                - heading "Liberty London ↗" [level=3] [ref=e117]:
+                  - link "Liberty London ↗" [ref=e118]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Liberty+London+Regent+Street
+                - paragraph [ref=e119]: Iconic mock-Tudor department store off Regent Street, known for its print fabrics and beauty hall.
+                - generic [ref=e120]:
+                  - generic [ref=e121]: shopping
+                  - generic [ref=e122]: / department-store
+                  - generic [ref=e123]: / soho
+                  - generic [ref=e124]: / architecture
+        - generic [ref=e125]:
+          - generic [ref=e126]:
+            - generic [ref=e127]: № 02
+            - heading "Cafes" [level=2] [ref=e128]
+            - generic [ref=e129]: 14 places
+          - generic [ref=e130]:
+            - article [ref=e131] [cursor=pointer]:
+              - generic [ref=e132]: "01"
+              - generic [ref=e134]:
+                - heading "Toconoco ↗" [level=3] [ref=e135]:
+                  - link "Toconoco ↗" [ref=e136]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Toconoco+Hertford+Road+London
+                - paragraph [ref=e137]: Tiny Japanese-leaning cafe in Haggerston by Regent's Canal serving onigiri, matcha and home-style plates.
+                - generic [ref=e138]:
+                  - generic [ref=e139]: coffee
+                  - generic [ref=e140]: / cafe
+                  - generic [ref=e141]: / japanese
+                  - generic [ref=e142]: / haggerston
+                  - generic [ref=e143]: / canal
+            - article [ref=e144] [cursor=pointer]:
+              - generic [ref=e145]: "02"
+              - generic [ref=e147]:
+                - heading "640East ↗" [level=3] [ref=e148]:
+                  - link "640East ↗" [ref=e149]:
+                    - /url: https://maps.app.goo.gl/kC34qNuhQCfSVEW36
+                - paragraph [ref=e150]: Coffee, brunch and events space tucked into Canary Wharf's Upper Bank Street.
+                - generic [ref=e151]:
+                  - generic [ref=e152]: coffee
+                  - generic [ref=e153]: / cafe
+                  - generic [ref=e154]: / canary-wharf
+            - article [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: "03"
+              - generic [ref=e158]:
+                - heading "Aether Coffee Lab ↗" [level=3] [ref=e159]:
+                  - link "Aether Coffee Lab ↗" [ref=e160]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Aether+Coffee+Lab+Park+Drive+London
+                - paragraph [ref=e161]: Speciality coffee bar in Canary Wharf's Wood Wharf with a focus on filter and seasonal beans.
+                - generic [ref=e162]:
+                  - generic [ref=e163]: coffee
+                  - generic [ref=e164]: / speciality
+                  - generic [ref=e165]: / canary-wharf
+            - article [ref=e166] [cursor=pointer]:
+              - generic [ref=e167]: "04"
+              - generic [ref=e169]:
+                - heading "Cinnamon Coffee Shop ↗" [level=3] [ref=e170]:
+                  - link "Cinnamon Coffee Shop ↗" [ref=e171]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Cinnamon+Coffee+Shop+Wapping+Lane+London
+                - paragraph [ref=e172]: Friendly neighbourhood cafe on Wapping Lane with strong pastries and brunch.
+                - generic [ref=e173]:
+                  - generic [ref=e174]: coffee
+                  - generic [ref=e175]: / cafe
+                  - generic [ref=e176]: / brunch
+                  - generic [ref=e177]: / wapping
+            - article [ref=e178] [cursor=pointer]:
+              - generic [ref=e179]: "05"
+              - generic [ref=e181]:
+                - heading "WatchHouse Fitzrovia ↗" [level=3] [ref=e182]:
+                  - link "WatchHouse Fitzrovia ↗" [ref=e183]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=WatchHouse+Fitzrovia+London
+                - paragraph [ref=e184]: Wells Street branch of the London speciality roastery, good for laptop work.
+                - generic [ref=e185]:
+                  - generic [ref=e186]: coffee
+                  - generic [ref=e187]: / speciality
+                  - generic [ref=e188]: / fitzrovia
+            - article [ref=e189] [cursor=pointer]:
+              - generic [ref=e190]: "06"
+              - generic [ref=e192]:
+                - heading "Special Guests Coffee ↗" [level=3] [ref=e193]:
+                  - link "Special Guests Coffee ↗" [ref=e194]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Special+Guests+Coffee+Aybrook+Street+London
+                - paragraph [ref=e195]: Marylebone speciality espresso bar on Aybrook Street.
+                - generic [ref=e196]:
+                  - generic [ref=e197]: coffee
+                  - generic [ref=e198]: / speciality
+                  - generic [ref=e199]: / marylebone
+            - article [ref=e200] [cursor=pointer]:
+              - generic [ref=e201]: "07"
+              - generic [ref=e203]:
+                - heading "WatchHouse Bermondsey ↗" [level=3] [ref=e204]:
+                  - link "WatchHouse Bermondsey ↗" [ref=e205]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=WatchHouse+Bermondsey+London
+                - paragraph [ref=e206]: The original WatchHouse coffee location, in a converted 19th-century watch hut off Bermondsey Street.
+                - generic [ref=e207]:
+                  - generic [ref=e208]: coffee
+                  - generic [ref=e209]: / speciality
+                  - generic [ref=e210]: / bermondsey
+            - article [ref=e211] [cursor=pointer]:
+              - generic [ref=e212]: "08"
+              - generic [ref=e214]:
+                - heading "St Clair Cafe ↗" [level=3] [ref=e215]:
+                  - link "St Clair Cafe ↗" [ref=e216]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=St+Clair+Cafe+Portland+Road+London
+                - paragraph [ref=e217]: Small Holland Park cafe on Portland Road for breakfast and weekend brunch.
+                - generic [ref=e218]:
+                  - generic [ref=e219]: coffee
+                  - generic [ref=e220]: / cafe
+                  - generic [ref=e221]: / brunch
+                  - generic [ref=e222]: / holland-park
+            - article [ref=e223] [cursor=pointer]:
+              - generic [ref=e224]: "09"
+              - generic [ref=e226]:
+                - heading "Café O'Porto ↗" [level=3] [ref=e227]:
+                  - link "Café O'Porto ↗" [ref=e228]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Cafe+O%27Porto+Golborne+Road+London
+                - paragraph [ref=e229]: If you desire a traditional Portugese cafe. Old-school Portuguese cafe on Golborne Road for pastéis de nata and bicas.
+                - generic [ref=e230]:
+                  - generic [ref=e231]: coffee
+                  - generic [ref=e232]: / cafe
+                  - generic [ref=e233]: / portuguese
+                  - generic [ref=e234]: / golborne
+                  - generic [ref=e235]: / pastel-de-nata
+            - article [ref=e236] [cursor=pointer]:
+              - generic [ref=e237]: "10"
+              - generic [ref=e239]:
+                - heading "Rotunda Cafe ↗" [level=3] [ref=e240]:
+                  - link "Rotunda Cafe ↗" [ref=e241]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Rotunda+Cafe+Saunders+Ness+Road+London
+                - paragraph [ref=e242]: Tiny circular Isle of Dogs cafe near Island Gardens — coffee, sandwiches and a riverside view across to Greenwich.
+                - generic [ref=e243]:
+                  - generic [ref=e244]: coffee
+                  - generic [ref=e245]: / cafe
+                  - generic [ref=e246]: / isle-of-dogs
+                  - generic [ref=e247]: / riverside
+            - article [ref=e248] [cursor=pointer]:
+              - generic [ref=e249]: "11"
+              - generic [ref=e251]:
+                - heading "Calico Coffee ↗" [level=3] [ref=e252]:
+                  - link "Calico Coffee ↗" [ref=e253]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Calico+Coffee+Lower+Marsh+London
+                - paragraph [ref=e254]: Speciality coffee shop and in-house roastery on Lower Marsh near Waterloo, with a deep pour-over menu.
+                - generic [ref=e255]:
+                  - generic [ref=e256]: coffee
+                  - generic [ref=e257]: / speciality
+                  - generic [ref=e258]: / waterloo
+            - article [ref=e259] [cursor=pointer]:
+              - generic [ref=e260]: "12"
+              - generic [ref=e262]:
+                - heading "Daydreamer ↗" [level=3] [ref=e263]:
+                  - link "Daydreamer ↗" [ref=e264]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Daydreamer+Cafe+Honor+Oak+Park+London
+                - paragraph [ref=e265]: Small neighbourhood cafe on the Honor Oak Park high street in south-east London.
+                - generic [ref=e266]:
+                  - generic [ref=e267]: coffee
+                  - generic [ref=e268]: / cafe
+                  - generic [ref=e269]: / honor-oak
+            - article [ref=e270] [cursor=pointer]:
+              - generic [ref=e271]: "13"
+              - generic [ref=e273]:
+                - heading "Nola Coffee ↗" [level=3] [ref=e274]:
+                  - link "Nola Coffee ↗" [ref=e275]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Nola+Coffee+Rye+Lane+Peckham+London
+                - paragraph [ref=e276]: Friendly speciality coffee shop on Rye Lane in Peckham, run by a musician couple, with a minimal wood-panelled interior.
+                - generic [ref=e277]:
+                  - generic [ref=e278]: coffee
+                  - generic [ref=e279]: / speciality
+                  - generic [ref=e280]: / peckham
+            - article [ref=e281] [cursor=pointer]:
+              - generic [ref=e282]: "14"
+              - generic [ref=e284]:
+                - heading "Cöödie ↗" [level=3] [ref=e285]:
+                  - link "Cöödie ↗" [ref=e286]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Coodie+Coffee+Cookie+Bar+Peckham+High+Street+London
+                - paragraph [ref=e287]: Minimalist coffee shop and cookie bar on Peckham High Street with adventurous flavours like raspberry-hoisin and sobrasada-cheese.
+                - generic [ref=e288]:
+                  - generic [ref=e289]: coffee
+                  - generic [ref=e290]: / cafe
+                  - generic [ref=e291]: / cookies
+                  - generic [ref=e292]: / peckham
+        - generic [ref=e293]:
+          - generic [ref=e294]:
+            - generic [ref=e295]: № 03
+            - heading "Restaurants" [level=2] [ref=e296]
+            - generic [ref=e297]: 16 places
+          - generic [ref=e298]:
+            - article [ref=e299] [cursor=pointer]:
+              - generic [ref=e300]: "01"
+              - generic [ref=e302]:
+                - heading "Duck & Waffle ↗" [level=3] [ref=e303]:
+                  - link "Duck & Waffle ↗" [ref=e304]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Duck+%26+Waffle+Heron+Tower+London
+                - paragraph [ref=e305]: 24-hour British restaurant on the 40th floor of Heron Tower, famous for its namesake duck-and-waffle dish and the view.
+                - generic [ref=e306]:
+                  - generic [ref=e307]: food
+                  - generic [ref=e308]: / restaurant
+                  - generic [ref=e309]: / view
+                  - generic [ref=e310]: / late-night
+                  - generic [ref=e311]: / city
+            - article [ref=e312] [cursor=pointer]:
+              - generic [ref=e313]: "02"
+              - generic [ref=e315]:
+                - heading "Smoking Goat ↗" [level=3] [ref=e316]:
+                  - link "Smoking Goat ↗" [ref=e317]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Smoking+Goat+Shoreditch+London
+                - paragraph [ref=e318]: Loud, fun Thai-inspired bar/restaurant in Shoreditch (sister to Kiln).
+                - generic [ref=e319]:
+                  - generic [ref=e320]: food
+                  - generic [ref=e321]: / restaurant
+                  - generic [ref=e322]: / thai
+                  - generic [ref=e323]: / shoreditch
+            - article [ref=e324] [cursor=pointer]:
+              - generic [ref=e325]: "03"
+              - generic [ref=e327]:
+                - heading "Kiln ↗" [level=3] [ref=e328]:
+                  - link "Kiln ↗" [ref=e329]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Kiln+Brewer+Street+London
+                - paragraph [ref=e330]: Counter-seat Thai restaurant on Brewer Street, Soho, cooking over open fire and clay pots.
+                - generic [ref=e331]:
+                  - generic [ref=e332]: food
+                  - generic [ref=e333]: / restaurant
+                  - generic [ref=e334]: / thai
+                  - generic [ref=e335]: / soho
+                  - generic [ref=e336]: / counter-dining
+            - article [ref=e337] [cursor=pointer]:
+              - generic [ref=e338]: "04"
+              - generic [ref=e340]:
+                - heading "Plaza Khao Gaeng ↗" [level=3] [ref=e341]:
+                  - link "Plaza Khao Gaeng ↗" [ref=e342]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Plaza+Khao+Gaeng+Centre+Point+London
+                - paragraph [ref=e343]: Southern-Thai curry-and-rice canteen at Arcade Centre Point.
+                - generic [ref=e344]:
+                  - generic [ref=e345]: food
+                  - generic [ref=e346]: / restaurant
+                  - generic [ref=e347]: / thai
+                  - generic [ref=e348]: / centre-point
+            - article [ref=e349] [cursor=pointer]:
+              - generic [ref=e350]: "05"
+              - generic [ref=e352]:
+                - heading "The Eagle (Farringdon) ↗" [level=3] [ref=e353]:
+                  - link "The Eagle (Farringdon) ↗" [ref=e354]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=The+Eagle+Farringdon+Road+London
+                - paragraph [ref=e355]: The original London gastropub, on Farringdon Road, still cooking Mediterranean plates from an open kitchen.
+                - generic [ref=e356]:
+                  - generic [ref=e357]: food
+                  - generic [ref=e358]: / gastropub
+                  - generic [ref=e359]: / farringdon
+            - article [ref=e360] [cursor=pointer]:
+              - generic [ref=e361]: "06"
+              - generic [ref=e363]:
+                - heading "Cafe Tiffin (Farringdon) ↗" [level=3] [ref=e364]:
+                  - link "Cafe Tiffin (Farringdon) ↗" [ref=e365]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Cafe+Tiffin+Compton+Street+London
+                - paragraph [ref=e366]: Casual Indian cafe-canteen near Farringdon for thalis and chai.
+                - generic [ref=e367]:
+                  - generic [ref=e368]: food
+                  - generic [ref=e369]: / indian
+                  - generic [ref=e370]: / farringdon
+                  - generic [ref=e371]: / casual
+            - article [ref=e372] [cursor=pointer]:
+              - generic [ref=e373]: "07"
+              - generic [ref=e375]:
+                - heading "OMA ↗" [level=3] [ref=e376]:
+                  - link "OMA ↗" [ref=e377]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=OMA+Bedale+Street+Borough+Market+London
+                - paragraph [ref=e378]: Aegean-Mediterranean restaurant above Borough Market — try to get a table on the terrace.
+                - generic [ref=e379]:
+                  - generic [ref=e380]: food
+                  - generic [ref=e381]: / restaurant
+                  - generic [ref=e382]: / mediterranean
+                  - generic [ref=e383]: / borough-market
+                  - generic [ref=e384]: / terrace
+            - article [ref=e385] [cursor=pointer]:
+              - generic [ref=e386]: "08"
+              - generic [ref=e388]:
+                - heading "Kricket Canary Wharf ↗" [level=3] [ref=e389]:
+                  - link "Kricket Canary Wharf ↗" [ref=e390]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Kricket+Canary+Wharf+London
+                - paragraph [ref=e391]: Modern Indian small plates in Frobisher Passage, Canary Wharf.
+                - generic [ref=e392]:
+                  - generic [ref=e393]: food
+                  - generic [ref=e394]: / indian
+                  - generic [ref=e395]: / canary-wharf
+            - article [ref=e396] [cursor=pointer]:
+              - generic [ref=e397]: "09"
+              - generic [ref=e399]:
+                - heading "Morchella ↗" [level=3] [ref=e400]:
+                  - link "Morchella ↗" [ref=e401]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Morchella+Rosebery+Avenue+London
+                - paragraph [ref=e402]: Pasta-forward, ingredient-led restaurant near Exmouth Market on Rosebery Avenue.
+                - generic [ref=e403]:
+                  - generic [ref=e404]: food
+                  - generic [ref=e405]: / restaurant
+                  - generic [ref=e406]: / pasta
+                  - generic [ref=e407]: / clerkenwell
+            - article [ref=e408] [cursor=pointer]:
+              - generic [ref=e409]: "10"
+              - generic [ref=e411]:
+                - heading "Kricket Brixton ↗" [level=3] [ref=e412]:
+                  - link "Kricket Brixton ↗" [ref=e413]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Kricket+Brixton+Atlantic+Road+London
+                - paragraph [ref=e414]: The original Kricket — modern Indian cooking in a tiny Atlantic Road space.
+                - generic [ref=e415]:
+                  - generic [ref=e416]: food
+                  - generic [ref=e417]: / indian
+                  - generic [ref=e418]: / brixton
+            - article [ref=e419] [cursor=pointer]:
+              - generic [ref=e420]: "11"
+              - generic [ref=e422]:
+                - heading "Sporting Club London ↗" [level=3] [ref=e423]:
+                  - link "Sporting Club London ↗" [ref=e424]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Sporting+Club+London+Elkstone+Road
+                - paragraph [ref=e425]: If you are looking for a simple, traditional portugese restaurant. No-frills Portuguese members'-club-style canteen on Elkstone Road serving grilled fish, bacalhau and house wine.
+                - generic [ref=e426]:
+                  - generic [ref=e427]: food
+                  - generic [ref=e428]: / restaurant
+                  - generic [ref=e429]: / portuguese
+                  - generic [ref=e430]: / golborne
+                  - generic [ref=e431]: / casual
+            - article [ref=e432] [cursor=pointer]:
+              - generic [ref=e433]: "12"
+              - generic [ref=e435]:
+                - heading "Naïfs ↗" [level=3] [ref=e436]:
+                  - link "Naïfs ↗" [ref=e437]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Naifs+Goldsmith+Road+Peckham+London
+                - paragraph [ref=e438]: Independent vegan bistro on a quiet Peckham corner, Michelin-recommended for original seasonal sharing plates.
+                - generic [ref=e439]:
+                  - generic [ref=e440]: food
+                  - generic [ref=e441]: / restaurant
+                  - generic [ref=e442]: / vegan
+                  - generic [ref=e443]: / peckham
+            - article [ref=e444] [cursor=pointer]:
+              - generic [ref=e445]: "13"
+              - generic [ref=e447]:
+                - heading "Nandine ↗" [level=3] [ref=e448]:
+                  - link "Nandine ↗" [ref=e449]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Nandine+Camberwell+Church+Street+London
+                - paragraph [ref=e450]: Family-run Kurdish restaurant on Camberwell Church Street, cooking matriarch Pary Baban's home recipes.
+                - generic [ref=e451]:
+                  - generic [ref=e452]: food
+                  - generic [ref=e453]: / restaurant
+                  - generic [ref=e454]: / kurdish
+                  - generic [ref=e455]: / camberwell
+            - article [ref=e456] [cursor=pointer]:
+              - generic [ref=e457]: "14"
+              - generic [ref=e459]:
+                - heading "Heritage Dulwich ↗" [level=3] [ref=e460]:
+                  - link "Heritage Dulwich ↗" [ref=e461]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Heritage+Dulwich+Rosendale+Road+London
+                - paragraph [ref=e462]: Modern Indian fine-dining restaurant on Rosendale Road in West Dulwich, in the Michelin Guide for Dayashankar Sharma's contemporary cooking.
+                - generic [ref=e463]:
+                  - generic [ref=e464]: food
+                  - generic [ref=e465]: / restaurant
+                  - generic [ref=e466]: / indian
+                  - generic [ref=e467]: / dulwich
+            - article [ref=e468] [cursor=pointer]:
+              - generic [ref=e469]: "15"
+              - generic [ref=e471]:
+                - heading "The Jackalope ↗" [level=3] [ref=e472]:
+                  - link "The Jackalope ↗" [ref=e473]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=The+Jackalope+Weymouth+Mews+Marylebone+London
+                - paragraph [ref=e474]: 18th-century Marylebone mews pub on Weymouth Mews — go for the Liu Xiaomian downstairs, serving spicy Chongqing noodles.
+                - generic [ref=e475]:
+                  - generic [ref=e476]: food
+                  - generic [ref=e477]: / pub
+                  - generic [ref=e478]: / chinese
+                  - generic [ref=e479]: / sichuan
+                  - generic [ref=e480]: / marylebone
+            - article [ref=e481] [cursor=pointer]:
+              - generic [ref=e482]: "16"
+              - generic [ref=e484]:
+                - heading "Phat Phuc Noodle Bar ↗" [level=3] [ref=e485]:
+                  - link "Phat Phuc Noodle Bar ↗" [ref=e486]:
+                    - /url: https://maps.app.goo.gl/W2io2u3mhDs3AaX7A
+                - paragraph [ref=e487]: Outdoor Vietnamese noodle bar tucked into a courtyard off King's Road in Chelsea, lunch-only and known for its pho and laksa.
+                - generic [ref=e488]:
+                  - generic [ref=e489]: food
+                  - generic [ref=e490]: / restaurant
+                  - generic [ref=e491]: / vietnamese
+                  - generic [ref=e492]: / chelsea
+                  - generic [ref=e493]: / casual
+        - generic [ref=e494]:
+          - generic [ref=e495]:
+            - generic [ref=e496]: № 04
+            - heading "Street Food" [level=2] [ref=e497]
+            - generic [ref=e498]: 2 places
+          - generic [ref=e499]:
+            - article [ref=e500] [cursor=pointer]:
+              - generic [ref=e501]: "01"
+              - generic [ref=e503]:
+                - heading "Beigel Bake ↗" [level=3] [ref=e504]:
+                  - link "Beigel Bake ↗" [ref=e505]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Beigel+Bake+Brick+Lane+London
+                - paragraph [ref=e506]: 24-hour Brick Lane bakery, the salt-beef bagel institution.
+                - generic [ref=e507]:
+                  - generic [ref=e508]: street-food
+                  - generic [ref=e509]: / bagel
+                  - generic [ref=e510]: / late-night
+                  - generic [ref=e511]: / brick-lane
+            - article [ref=e512] [cursor=pointer]:
+              - generic [ref=e513]: "02"
+              - generic [ref=e515]:
+                - heading "Lisboa Patisserie ↗" [level=3] [ref=e516]:
+                  - link "Lisboa Patisserie ↗" [ref=e517]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Lisboa+Patisserie+Golborne+Road+London
+                - paragraph [ref=e518]: Long-running Portuguese bakery on Golborne Road for pastéis de nata, savouries and strong espresso at the counter.
+                - generic [ref=e519]:
+                  - generic [ref=e520]: street-food
+                  - generic [ref=e521]: / portuguese
+                  - generic [ref=e522]: / bakery
+                  - generic [ref=e523]: / golborne
+                  - generic [ref=e524]: / pastel-de-nata
+        - generic [ref=e525]:
+          - generic [ref=e526]:
+            - generic [ref=e527]: № 05
+            - heading "Nature" [level=2] [ref=e528]
+            - generic [ref=e529]: 7 places
+          - generic [ref=e530]:
+            - article [ref=e531] [cursor=pointer]:
+              - generic [ref=e532]: "01"
+              - generic [ref=e534]:
+                - heading "Regent's Canal ↗" [level=3] [ref=e535]:
+                  - link "Regent's Canal ↗" [ref=e536]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Regent%27s+Canal+London
+                - paragraph [ref=e537]: 14 km canal you can walk from Little Venice through Camden and Hackney down to Limehouse Basin.
+                - generic [ref=e538]:
+                  - generic [ref=e539]: nature
+                  - generic [ref=e540]: / walk
+                  - generic [ref=e541]: / canal
+            - article [ref=e542] [cursor=pointer]:
+              - generic [ref=e543]: "02"
+              - generic [ref=e545]:
+                - heading "Blitz Memorial (Wapping) ↗" [level=3] [ref=e546]:
+                  - link "Blitz Memorial (Wapping) ↗" [ref=e547]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Blitz+Memorial+Wapping+High+Street+London
+                - paragraph [ref=e548]: Small WWII civilian-bombing memorial sculpture along Wapping High Street.
+                - generic [ref=e549]:
+                  - generic [ref=e550]: nature
+                  - generic [ref=e551]: / memorial
+                  - generic [ref=e552]: / wapping
+                  - generic [ref=e553]: / history
+            - article [ref=e554] [cursor=pointer]:
+              - generic [ref=e555]: "03"
+              - generic [ref=e557]:
+                - heading "Hampstead Heath (and Hampstead Village) ↗" [level=3] [ref=e558]:
+                  - link "Hampstead Heath (and Hampstead Village) ↗" [ref=e559]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Hampstead+Heath+London
+                - paragraph [ref=e560]: 320-hectare wild park in north London — bathing ponds, Parliament Hill view, Kenwood House — paired with the Georgian streets of Hampstead Village just south.
+                - generic [ref=e561]:
+                  - generic [ref=e562]: nature
+                  - generic [ref=e563]: / park
+                  - generic [ref=e564]: / walk
+                  - generic [ref=e565]: / view
+                  - generic [ref=e566]: / hampstead
+            - article [ref=e567] [cursor=pointer]:
+              - generic [ref=e568]: "04"
+              - generic [ref=e570]:
+                - heading "Highgate Cemetery ↗" [level=3] [ref=e571]:
+                  - link "Highgate Cemetery ↗" [ref=e572]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Highgate+Cemetery+Swain%27s+Lane+London
+                - paragraph [ref=e573]: Victorian cemetery on Swain's Lane in north London — overgrown, gothic, with Karl Marx and George Eliot among the graves.
+                - generic [ref=e574]:
+                  - generic [ref=e575]: nature
+                  - generic [ref=e576]: / cemetery
+                  - generic [ref=e577]: / history
+                  - generic [ref=e578]: / walk
+                  - generic [ref=e579]: / highgate
+            - article [ref=e580] [cursor=pointer]:
+              - generic [ref=e581]: "05"
+              - generic [ref=e583]:
+                - heading "Mudchute Park and Farm ↗" [level=3] [ref=e584]:
+                  - link "Mudchute Park and Farm ↗" [ref=e585]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Mudchute+Park+and+Farm+London
+                - paragraph [ref=e586]: 13-hectare city farm on the Isle of Dogs with sheep, pigs, horses and views straight up at the Canary Wharf towers.
+                - generic [ref=e587]:
+                  - generic [ref=e588]: nature
+                  - generic [ref=e589]: / farm
+                  - generic [ref=e590]: / park
+                  - generic [ref=e591]: / isle-of-dogs
+                  - generic [ref=e592]: / free
+            - article [ref=e593] [cursor=pointer]:
+              - generic [ref=e594]: "06"
+              - generic [ref=e596]:
+                - heading "Horniman Museum and Gardens ↗" [level=3] [ref=e597]:
+                  - link "Horniman Museum and Gardens ↗" [ref=e598]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Horniman+Museum+and+Gardens+Forest+Hill+London
+                - paragraph [ref=e599]: Free Forest Hill museum (anthropology, natural history, musical instruments — and the famous overstuffed walrus) set in 16 acres of gardens with panoramic views over central London.
+                - generic [ref=e600]:
+                  - generic [ref=e601]: nature
+                  - generic [ref=e602]: / museum
+                  - generic [ref=e603]: / gardens
+                  - generic [ref=e604]: / view
+                  - generic [ref=e605]: / forest-hill
+                  - generic [ref=e606]: / free
+            - article [ref=e607] [cursor=pointer]:
+              - generic [ref=e608]: "07"
+              - generic [ref=e610]:
+                - heading "Sydenham Hill Wood ↗" [level=3] [ref=e611]:
+                  - link "Sydenham Hill Wood ↗" [ref=e612]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Sydenham+Hill+Wood+London
+                - paragraph [ref=e613]: Ten-hectare ancient woodland nature reserve in south London with a Victorian folly, a disused railway tunnel and Cox's Walk under ancient oaks.
+                - generic [ref=e614]:
+                  - generic [ref=e615]: nature
+                  - generic [ref=e616]: / wood
+                  - generic [ref=e617]: / walk
+                  - generic [ref=e618]: / sydenham
+                  - generic [ref=e619]: / free
+        - generic [ref=e620]:
+          - generic [ref=e621]:
+            - generic [ref=e622]: № 06
+            - heading "Buildings/Architecture" [level=2] [ref=e623]
+            - generic [ref=e624]: 8 places
+          - generic [ref=e625]:
+            - article [ref=e626] [cursor=pointer]:
+              - generic [ref=e627]: "01"
+              - generic [ref=e629]:
+                - heading "St Pancras Station ↗" [level=3] [ref=e630]:
+                  - link "St Pancras Station ↗" [ref=e631]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=St+Pancras+Station+London
+                - paragraph [ref=e632]: Victorian Gothic terminus on Euston Road; Eurostar departures and the Renaissance Hotel staircase.
+                - generic [ref=e633]:
+                  - generic [ref=e634]: architecture
+                  - generic [ref=e635]: / station
+                  - generic [ref=e636]: / gothic
+                  - generic [ref=e637]: / kings-cross
+            - article [ref=e638] [cursor=pointer]:
+              - generic [ref=e639]: "02"
+              - generic [ref=e641]:
+                - heading "Sky Garden ↗" [level=3] [ref=e642]:
+                  - link "Sky Garden ↗" [ref=e643]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Sky+Garden+20+Fenchurch+Street+London
+                - paragraph [ref=e644]: Free public roof garden atop 20 Fenchurch Street ("Walkie-Talkie") — book a slot in advance.
+                - generic [ref=e645]:
+                  - generic [ref=e646]: architecture
+                  - generic [ref=e647]: / view
+                  - generic [ref=e648]: / garden
+                  - generic [ref=e649]: / city
+                  - generic [ref=e650]: / free
+            - article [ref=e651] [cursor=pointer]:
+              - generic [ref=e652]: "03"
+              - generic [ref=e654]:
+                - heading "Barbican Centre ↗" [level=3] [ref=e655]:
+                  - link "Barbican Centre ↗" [ref=e656]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Barbican+Centre+Silk+Street+London
+                - paragraph [ref=e657]: Brutalist arts complex with concert halls, cinemas, galleries and the conservatory.
+                - generic [ref=e658]:
+                  - generic [ref=e659]: architecture
+                  - generic [ref=e660]: / brutalist
+                  - generic [ref=e661]: / arts
+                  - generic [ref=e662]: / city
+            - article [ref=e663] [cursor=pointer]:
+              - generic [ref=e664]: "04"
+              - generic [ref=e666]:
+                - heading "Bank (City of London) ↗" [level=3] [ref=e667]:
+                  - link "Bank (City of London) ↗" [ref=e668]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Bank+Underground+Station+London
+                - paragraph [ref=e669]: Bank junction at the heart of the City — Bank of England, Royal Exchange and Mansion House around the station entrance.
+                - generic [ref=e670]:
+                  - generic [ref=e671]: architecture
+                  - generic [ref=e672]: / city
+                  - generic [ref=e673]: / history
+                  - generic [ref=e674]: / station
+            - article [ref=e675] [cursor=pointer]:
+              - generic [ref=e676]: "05"
+              - generic [ref=e678]:
+                - heading "Westbourne Grove Church ↗" [level=3] [ref=e679]:
+                  - link "Westbourne Grove Church ↗" [ref=e680]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Westbourne+Grove+Church+Ledbury+Road+London
+                - paragraph [ref=e681]: Striking white-stuccoed Victorian church with shops inside at the corner of Westbourne Grove and Ledbury Road in Notting Hill.
+                - generic [ref=e682]:
+                  - generic [ref=e683]: architecture
+                  - generic [ref=e684]: / church
+                  - generic [ref=e685]: / notting-hill
+            - article [ref=e686] [cursor=pointer]:
+              - generic [ref=e687]: "06"
+              - generic [ref=e689]:
+                - heading "Trellick Tower (Careful around it; some corners can be dangerous) ↗" [level=3] [ref=e690]:
+                  - link "Trellick Tower (Careful around it; some corners can be dangerous) ↗" [ref=e691]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Trellick+Tower+Golborne+Road+London
+                - paragraph [ref=e692]: Ernő Goldfinger's 31-storey 1972 Brutalist tower above Golborne Road — Grade II*-listed and instantly recognisable.
+                - generic [ref=e693]:
+                  - generic [ref=e694]: architecture
+                  - generic [ref=e695]: / brutalist
+                  - generic [ref=e696]: / golborne
+                  - generic [ref=e697]: / notting-hill
+            - article [ref=e698] [cursor=pointer]:
+              - generic [ref=e699]: "07"
+              - generic [ref=e701]:
+                - heading "Greenwich Foot Tunnel North ↗" [level=3] [ref=e702]:
+                  - link "Greenwich Foot Tunnel North ↗" [ref=e703]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Greenwich+Foot+Tunnel+North+Entrance+London
+                - paragraph [ref=e704]: Domed Edwardian rotunda at Island Gardens marking the north entrance to the 1902 pedestrian tunnel under the Thames to Greenwich.
+                - generic [ref=e705]:
+                  - generic [ref=e706]: architecture
+                  - generic [ref=e707]: / history
+                  - generic [ref=e708]: / isle-of-dogs
+                  - generic [ref=e709]: / walk
+                  - generic [ref=e710]: / river-thames
+            - article [ref=e711] [cursor=pointer]:
+              - generic [ref=e712]: "08"
+              - generic [ref=e714]:
+                - heading "Lloyd's Building ↗" [level=3] [ref=e715]:
+                  - link "Lloyd's Building ↗" [ref=e716]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Lloyd%27s+Building+1+Lime+Street+London
+                - paragraph [ref=e717]: Richard Rogers' 1986 "inside-out" high-tech tower on Lime Street — lifts, ducts and pipes all running up the outside; Grade I-listed.
+                - generic [ref=e718]:
+                  - generic [ref=e719]: architecture
+                  - generic [ref=e720]: / high-tech
+                  - generic [ref=e721]: / city
+                  - generic [ref=e722]: / history
+        - generic [ref=e723]:
+          - generic [ref=e724]:
+            - generic [ref=e725]: № 07
+            - heading "Markets" [level=2] [ref=e726]
+            - generic [ref=e727]: 6 places
+          - generic [ref=e728]:
+            - article [ref=e729] [cursor=pointer]:
+              - generic [ref=e730]: "01"
+              - generic [ref=e732]:
+                - heading "Columbia Road Flower Market ↗" [level=3] [ref=e733]:
+                  - link "Columbia Road Flower Market ↗" [ref=e734]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Columbia+Road+Flower+Market+London
+                - paragraph [ref=e735]: Sunday-morning flower and plant market in Bethnal Green; arrive early or stay for the bargains at the end.
+                - generic [ref=e736]:
+                  - generic [ref=e737]: market
+                  - generic [ref=e738]: / flowers
+                  - generic [ref=e739]: / sunday
+                  - generic [ref=e740]: / bethnal-green
+            - article [ref=e741] [cursor=pointer]:
+              - generic [ref=e742]: "02"
+              - generic [ref=e744]:
+                - heading "Broadway Market ↗" [level=3] [ref=e745]:
+                  - link "Broadway Market ↗" [ref=e746]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Broadway+Market+London+Hackney
+                - paragraph [ref=e747]: Saturday food, produce and stalls market in Hackney, lined with cafes and indie shops.
+                - generic [ref=e748]:
+                  - generic [ref=e749]: market
+                  - generic [ref=e750]: / food
+                  - generic [ref=e751]: / saturday
+                  - generic [ref=e752]: / hackney
+            - article [ref=e753] [cursor=pointer]:
+              - generic [ref=e754]: "03"
+              - generic [ref=e756]:
+                - heading "Spitalfields Market ↗" [level=3] [ref=e757]:
+                  - link "Spitalfields Market ↗" [ref=e758]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Old+Spitalfields+Market+London
+                - paragraph [ref=e759]: Covered market in a Victorian shed — food, vintage, crafts and traders.
+                - generic [ref=e760]:
+                  - generic [ref=e761]: market
+                  - generic [ref=e762]: / food
+                  - generic [ref=e763]: / vintage
+                  - generic [ref=e764]: / spitalfields
+            - article [ref=e765] [cursor=pointer]:
+              - generic [ref=e766]: "04"
+              - generic [ref=e768]:
+                - heading "Coal Drops Yard ↗" [level=3] [ref=e769]:
+                  - link "Coal Drops Yard ↗" [ref=e770]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Coal+Drops+Yard+King%27s+Cross+London
+                - paragraph [ref=e771]: King's Cross retail and dining quarter built into restored Victorian coal sheds.
+                - generic [ref=e772]:
+                  - generic [ref=e773]: market
+                  - generic [ref=e774]: / shopping
+                  - generic [ref=e775]: / food
+                  - generic [ref=e776]: / kings-cross
+                  - generic [ref=e777]: / architecture
+            - article [ref=e778] [cursor=pointer]:
+              - generic [ref=e779]: "05"
+              - generic [ref=e781]:
+                - heading "Borough Market ↗" [level=3] [ref=e782]:
+                  - link "Borough Market ↗" [ref=e783]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Borough+Market+London
+                - paragraph [ref=e784]: London's oldest food market, near London Bridge — produce, cheese, traders and street food.
+                - generic [ref=e785]:
+                  - generic [ref=e786]: market
+                  - generic [ref=e787]: / food
+                  - generic [ref=e788]: / southwark
+            - article [ref=e789] [cursor=pointer]:
+              - generic [ref=e790]: "06"
+              - generic [ref=e792]:
+                - heading "Exmouth Market ↗" [level=3] [ref=e793]:
+                  - link "Exmouth Market ↗" [ref=e794]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Exmouth+Market+London
+                - paragraph [ref=e795]: Pedestrianised Clerkenwell street with weekday food stalls, restaurants and cafes.
+                - generic [ref=e796]:
+                  - generic [ref=e797]: market
+                  - generic [ref=e798]: / food
+                  - generic [ref=e799]: / clerkenwell
+        - generic [ref=e800]:
+          - generic [ref=e801]:
+            - generic [ref=e802]: № 08
+            - heading "Streets" [level=2] [ref=e803]
+            - generic [ref=e804]: 9 places
+          - generic [ref=e805]:
+            - article [ref=e806] [cursor=pointer]:
+              - generic [ref=e807]: "01"
+              - generic [ref=e809]:
+                - heading "Wapping High Street ↗" [level=3] [ref=e810]:
+                  - link "Wapping High Street ↗" [ref=e811]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Wapping+High+Street+London
+                - paragraph [ref=e812]: Cobbled riverside street through old wharves and warehouses, with historic Thames-side pubs.
+                - generic [ref=e813]:
+                  - generic [ref=e814]: street
+                  - generic [ref=e815]: / walk
+                  - generic [ref=e816]: / riverside
+                  - generic [ref=e817]: / wapping
+            - article [ref=e818] [cursor=pointer]:
+              - generic [ref=e819]: "02"
+              - generic [ref=e821]:
+                - heading "Brick Lane ↗" [level=3] [ref=e822]:
+                  - link "Brick Lane ↗" [ref=e823]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Brick+Lane+London
+                - paragraph [ref=e824]: East End street known for curry houses, vintage shops, bagel shops and street art.
+                - generic [ref=e825]:
+                  - generic [ref=e826]: street
+                  - generic [ref=e827]: / walk
+                  - generic [ref=e828]: / food
+                  - generic [ref=e829]: / vintage
+                  - generic [ref=e830]: / street-art
+            - article [ref=e831] [cursor=pointer]:
+              - generic [ref=e832]: "03"
+              - generic [ref=e834]:
+                - heading "Chiltern Street ↗" [level=3] [ref=e835]:
+                  - link "Chiltern Street ↗" [ref=e836]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Chiltern+Street+Marylebone+London
+                - paragraph [ref=e837]: Marylebone street of independent shops, the Chiltern Firehouse and Monocle's cafe.
+                - generic [ref=e838]:
+                  - generic [ref=e839]: street
+                  - generic [ref=e840]: / shopping
+                  - generic [ref=e841]: / marylebone
+            - article [ref=e842] [cursor=pointer]:
+              - generic [ref=e843]: "04"
+              - generic [ref=e845]:
+                - heading "Liverpool Street ↗" [level=3] [ref=e846]:
+                  - link "Liverpool Street ↗" [ref=e847]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Liverpool+Street+City+of+London
+                - paragraph [ref=e848]: City of London thoroughfare anchored by Liverpool Street station, with Broadgate and the eastern City beyond.
+                - generic [ref=e849]:
+                  - generic [ref=e850]: street
+                  - generic [ref=e851]: / station
+                  - generic [ref=e852]: / city
+            - article [ref=e853] [cursor=pointer]:
+              - generic [ref=e854]: "05"
+              - generic [ref=e856]:
+                - heading "Redchurch Street ↗" [level=3] [ref=e857]:
+                  - link "Redchurch Street ↗" [ref=e858]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Redchurch+Street+Shoreditch+London+E2
+                - paragraph [ref=e859]: Shoreditch street between Brick Lane and Shoreditch High Street lined with indie boutiques, galleries and bars (Mark Gold among them).
+                - generic [ref=e860]:
+                  - generic [ref=e861]: street
+                  - generic [ref=e862]: / shopping
+                  - generic [ref=e863]: / shoreditch
+                  - generic [ref=e864]: / bars
+            - article [ref=e865] [cursor=pointer]:
+              - generic [ref=e866]: "06"
+              - generic [ref=e868]:
+                - heading "Kensington Palace Gardens ↗" [level=3] [ref=e869]:
+                  - link "Kensington Palace Gardens ↗" [ref=e870]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Kensington+Palace+Gardens+London
+                - paragraph [ref=e871]: Tree-lined, gated avenue of grand embassies and ambassadors' residences running north along Kensington Gardens.
+                - generic [ref=e872]:
+                  - generic [ref=e873]: street
+                  - generic [ref=e874]: / walk
+                  - generic [ref=e875]: / kensington
+                  - generic [ref=e876]: / embassies
+            - article [ref=e877] [cursor=pointer]:
+              - generic [ref=e878]: "07"
+              - generic [ref=e880]:
+                - heading "Portobello Road ↗" [level=3] [ref=e881]:
+                  - link "Portobello Road ↗" [ref=e882]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Portobello+Road+London
+                - paragraph [ref=e883]: Notting Hill's classic market street — antiques, vintage and stalls peaking on Saturdays.
+                - generic [ref=e884]:
+                  - generic [ref=e885]: street
+                  - generic [ref=e886]: / market
+                  - generic [ref=e887]: / antiques
+                  - generic [ref=e888]: / vintage
+                  - generic [ref=e889]: / notting-hill
+            - article [ref=e890] [cursor=pointer]:
+              - generic [ref=e891]: "08"
+              - generic [ref=e893]:
+                - heading "Golborne Road ↗" [level=3] [ref=e894]:
+                  - link "Golborne Road ↗" [ref=e895]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=Golborne+Road+London+W10
+                - paragraph [ref=e896]: North end of the Portobello strip with Portuguese cafes, Moroccan stalls and Trellick Tower at its head.
+                - generic [ref=e897]:
+                  - generic [ref=e898]: street
+                  - generic [ref=e899]: / food
+                  - generic [ref=e900]: / portuguese
+                  - generic [ref=e901]: / moroccan
+                  - generic [ref=e902]: / golborne
+            - article [ref=e903] [cursor=pointer]:
+              - generic [ref=e904]: "09"
+              - generic [ref=e906]:
+                - heading "New Bond Street / Old Bond Street ↗" [level=3] [ref=e907]:
+                  - link "New Bond Street / Old Bond Street ↗" [ref=e908]:
+                    - /url: https://www.google.com/maps/search/?api=1&query=New+Bond+Street+Mayfair+London
+                - paragraph [ref=e909]: Mayfair luxury-shopping spine — New Bond St runs south from Oxford St into Old Bond St, ending at Piccadilly. Flagships, galleries and Royal Arcade.
+                - generic [ref=e910]:
+                  - generic [ref=e911]: street
+                  - generic [ref=e912]: / shopping
+                  - generic [ref=e913]: / mayfair
+                  - generic [ref=e914]: / luxury
+    - complementary "Map of all places" [ref=e915]:
+      - generic [ref=e916]:
+        - generic:
+          - generic:
+            - button "S" [ref=e917] [cursor=pointer]:
+              - generic [ref=e918]: S
+            - button "S" [ref=e919] [cursor=pointer]:
+              - generic [ref=e920]: S
+            - button "S" [ref=e921] [cursor=pointer]:
+              - generic [ref=e922]: S
+            - button "S" [ref=e923] [cursor=pointer]:
+              - generic [ref=e924]: S
+            - button "S" [ref=e925] [cursor=pointer]:
+              - generic [ref=e926]: S
+            - button "S" [ref=e927] [cursor=pointer]:
+              - generic [ref=e928]: S
+            - button "C" [ref=e929] [cursor=pointer]:
+              - generic [ref=e930]: C
+            - button "C" [ref=e931] [cursor=pointer]:
+              - generic [ref=e932]: C
+            - button "C" [ref=e933] [cursor=pointer]:
+              - generic [ref=e934]: C
+            - button "C" [ref=e935] [cursor=pointer]:
+              - generic [ref=e936]: C
+            - button "C" [ref=e937] [cursor=pointer]:
+              - generic [ref=e938]: C
+            - button "C" [ref=e939] [cursor=pointer]:
+              - generic [ref=e940]: C
+            - button "C" [ref=e941] [cursor=pointer]:
+              - generic [ref=e942]: C
+            - button "C" [ref=e943] [cursor=pointer]:
+              - generic [ref=e944]: C
+            - button "C" [ref=e945] [cursor=pointer]:
+              - generic [ref=e946]: C
+            - button "C" [ref=e947] [cursor=pointer]:
+              - generic [ref=e948]: C
+            - button "C" [ref=e949] [cursor=pointer]:
+              - generic [ref=e950]: C
+            - button "C" [ref=e951] [cursor=pointer]:
+              - generic [ref=e952]: C
+            - button "C" [ref=e953] [cursor=pointer]:
+              - generic [ref=e954]: C
+            - button "C" [ref=e955] [cursor=pointer]:
+              - generic [ref=e956]: C
+            - button "R" [ref=e957] [cursor=pointer]:
+              - generic [ref=e958]: R
+            - button "R" [ref=e959] [cursor=pointer]:
+              - generic [ref=e960]: R
+            - button "R" [ref=e961] [cursor=pointer]:
+              - generic [ref=e962]: R
+            - button "R" [ref=e963] [cursor=pointer]:
+              - generic [ref=e964]: R
+            - button "R" [ref=e965] [cursor=pointer]:
+              - generic [ref=e966]: R
+            - button "R" [ref=e967] [cursor=pointer]:
+              - generic [ref=e968]: R
+            - button "R" [ref=e969] [cursor=pointer]:
+              - generic [ref=e970]: R
+            - button "R" [ref=e971] [cursor=pointer]:
+              - generic [ref=e972]: R
+            - button "R" [ref=e973] [cursor=pointer]:
+              - generic [ref=e974]: R
+            - button "R" [ref=e975] [cursor=pointer]:
+              - generic [ref=e976]: R
+            - button "R" [ref=e977] [cursor=pointer]:
+              - generic [ref=e978]: R
+            - button "R" [ref=e979] [cursor=pointer]:
+              - generic [ref=e980]: R
+            - button "R" [ref=e981] [cursor=pointer]:
+              - generic [ref=e982]: R
+            - button "R" [ref=e983] [cursor=pointer]:
+              - generic [ref=e984]: R
+            - button "R" [ref=e985] [cursor=pointer]:
+              - generic [ref=e986]: R
+            - button "R" [ref=e987] [cursor=pointer]:
+              - generic [ref=e988]: R
+            - button "S" [ref=e989] [cursor=pointer]:
+              - generic [ref=e990]: S
+            - button "S" [ref=e991] [cursor=pointer]:
+              - generic [ref=e992]: S
+            - button "N" [ref=e993] [cursor=pointer]:
+              - generic [ref=e994]: "N"
+            - button "N" [ref=e995] [cursor=pointer]:
+              - generic [ref=e996]: "N"
+            - button "N" [ref=e997] [cursor=pointer]:
+              - generic [ref=e998]: "N"
+            - button "N" [ref=e999] [cursor=pointer]:
+              - generic [ref=e1000]: "N"
+            - button "N" [ref=e1001] [cursor=pointer]:
+              - generic [ref=e1002]: "N"
+            - button "N" [ref=e1003] [cursor=pointer]:
+              - generic [ref=e1004]: "N"
+            - button "N" [ref=e1005] [cursor=pointer]:
+              - generic [ref=e1006]: "N"
+            - button "B" [ref=e1007] [cursor=pointer]:
+              - generic [ref=e1008]: B
+            - button "B" [ref=e1009] [cursor=pointer]:
+              - generic [ref=e1010]: B
+            - button "B" [ref=e1011] [cursor=pointer]:
+              - generic [ref=e1012]: B
+            - button "B" [ref=e1013] [cursor=pointer]:
+              - generic [ref=e1014]: B
+            - button "B" [ref=e1015] [cursor=pointer]:
+              - generic [ref=e1016]: B
+            - button "B" [ref=e1017] [cursor=pointer]:
+              - generic [ref=e1018]: B
+            - button "B" [ref=e1019] [cursor=pointer]:
+              - generic [ref=e1020]: B
+            - button "B" [ref=e1021] [cursor=pointer]:
+              - generic [ref=e1022]: B
+            - button "M" [ref=e1023] [cursor=pointer]:
+              - generic [ref=e1024]: M
+            - button "M" [ref=e1025] [cursor=pointer]:
+              - generic [ref=e1026]: M
+            - button "M" [ref=e1027] [cursor=pointer]:
+              - generic [ref=e1028]: M
+            - button "M" [ref=e1029] [cursor=pointer]:
+              - generic [ref=e1030]: M
+            - button "M" [ref=e1031] [cursor=pointer]:
+              - generic [ref=e1032]: M
+            - button "M" [ref=e1033] [cursor=pointer]:
+              - generic [ref=e1034]: M
+            - button "S" [ref=e1035] [cursor=pointer]:
+              - generic [ref=e1036]: S
+            - button "S" [ref=e1037] [cursor=pointer]:
+              - generic [ref=e1038]: S
+            - button "S" [ref=e1039] [cursor=pointer]:
+              - generic [ref=e1040]: S
+            - button "S" [ref=e1041] [cursor=pointer]:
+              - generic [ref=e1042]: S
+            - button "S" [ref=e1043] [cursor=pointer]:
+              - generic [ref=e1044]: S
+            - button "S" [ref=e1045] [cursor=pointer]:
+              - generic [ref=e1046]: S
+            - button "S" [ref=e1047] [cursor=pointer]:
+              - generic [ref=e1048]: S
+            - button "S" [ref=e1049] [cursor=pointer]:
+              - generic [ref=e1050]: S
+            - button "S" [ref=e1051] [cursor=pointer]:
+              - generic [ref=e1052]: S
+        - generic:
+          - generic [ref=e1053]:
+            - button "Zoom in" [ref=e1054] [cursor=pointer]: +
+            - button "Zoom out" [ref=e1055] [cursor=pointer]: −
+          - generic:
+            - generic [ref=e1056]:
+              - button "Map" [ref=e1057] [cursor=pointer]
+              - button "Satellite" [ref=e1058] [cursor=pointer]
+            - generic [ref=e1059]:
+              - button "Labels" [ref=e1060] [cursor=pointer]
+              - button "Transit" [ref=e1061] [cursor=pointer]
+          - button "Find my location" [ref=e1063] [cursor=pointer]:
+            - img [ref=e1064]
+          - generic [ref=e1066]:
+            - link "Leaflet" [ref=e1067] [cursor=pointer]:
+              - /url: https://leafletjs.com
+              - img [ref=e1068]
+              - text: Leaflet
+            - text: "| ©"
+            - link "OSM" [ref=e1072] [cursor=pointer]:
+              - /url: https://www.openstreetmap.org/copyright
+            - text: ©
+            - link "Carto" [ref=e1073] [cursor=pointer]:
+              - /url: https://carto.com/attributions
+            - text: ", Labels ©"
+            - link "Carto" [ref=e1074] [cursor=pointer]:
+              - /url: https://carto.com/attributions
+  - contentinfo [ref=e1075]:
+    - generic [ref=e1077]:
+      - generic [ref=e1078]:
+        - text: "Source:"
+        - link "london.md" [ref=e1079] [cursor=pointer]:
+          - /url: london.md
+        - text: · updated 8 may 2026
+      - generic [ref=e1080]:
+        - text: © Felix ·
+        - link "github" [ref=e1081] [cursor=pointer]:
+          - /url: https://github.com/felixbrock/places

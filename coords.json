@@ -395,10 +395,52 @@
     "source": "google",
     "query": "https://www.google.com/maps/search/?api=1&query=Lloyd%27s+Building+1+Lime+Street+London"
   },
-  "Phat Phuc": {
+  "Phat Phuc Noodle Bar": {
     "lat": 51.4875437,
     "lng": -0.1692042,
     "source": "google",
     "query": "https://maps.app.goo.gl/W2io2u3mhDs3AaX7A"
+  },
+  "Sydenham Hill Wood": {
+    "lat": 51.4357495,
+    "lng": -0.0677359,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Sydenham+Hill+Wood+London"
+  },
+  "Village Books": {
+    "lat": 51.4510356,
+    "lng": -0.0850863,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Village+Books+Calton+Avenue+Dulwich+London"
+  },
+  "Anjanaas": {
+    "lat": 51.5407413,
+    "lng": -0.2020763,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Anjanaas+Willesden+Lane+London"
+  },
+  "Vijay": {
+    "lat": 51.5408099,
+    "lng": -0.2016122,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Vijay+India+Restaurant+Willesden+Lane+London"
+  },
+  "Bona": {
+    "lat": 51.4382379,
+    "lng": -0.0541894,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Bona+Sourdough+Pizza+Dartmouth+Road+Forest+Hill+London"
+  },
+  "Parkland Walk": {
+    "lat": 51.5740151,
+    "lng": -0.1228149,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Parkland+Walk+Finsbury+Park+London"
+  },
+  "Green Chain Walk": {
+    "lat": 51.4249645,
+    "lng": -0.0715026,
+    "source": "google",
+    "query": "https://www.google.com/maps/search/?api=1&query=Green+Chain+Walk+London"
   }
 }

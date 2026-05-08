@@ -30,6 +30,10 @@ Google Maps Collection Link: https://maps.app.goo.gl/TanA1A3spUNxBKoNA
   - https://www.google.com/maps/search/?api=1&query=Liberty+London+Regent+Street
   - What it is: Iconic mock-Tudor department store off Regent Street, known for its print fabrics and beauty hall.
   - Tags: shopping, department-store, soho, architecture
+- Village Books
+  - https://www.google.com/maps/search/?api=1&query=Village+Books+Calton+Avenue+Dulwich+London
+  - What it is: Award-winning independent bookshop on Calton Avenue in Dulwich Village, in the same spot since 1925, with a strong children's section.
+  - Tags: shopping, books, dulwich
 
 ## Cafes
 
@@ -69,6 +73,10 @@ Google Maps Collection Link: https://maps.app.goo.gl/TanA1A3spUNxBKoNA
   - https://www.google.com/maps/search/?api=1&query=Cafe+O%27Porto+Golborne+Road+London
   - What it is: If you desire a traditional Portugese cafe. Old-school Portuguese cafe on Golborne Road for pastéis de nata and bicas.
   - Tags: coffee, cafe, portuguese, golborne, pastel-de-nata
+- Lisboa Patisserie
+  - https://www.google.com/maps/search/?api=1&query=Lisboa+Patisserie+Golborne+Road+London
+  - What it is: Long-running Portuguese bakery on Golborne Road for pastéis de nata, savouries and strong espresso at the counter.
+  - Tags: coffee, cafe, portuguese, bakery, golborne, pastel-de-nata
 - Rotunda Cafe
   - https://www.google.com/maps/search/?api=1&query=Rotunda+Cafe+Saunders+Ness+Road+London
   - What it is: Tiny circular Isle of Dogs cafe near Island Gardens — coffee, sandwiches and a riverside view across to Greenwich.
@@ -152,9 +160,22 @@ Google Maps Collection Link: https://maps.app.goo.gl/TanA1A3spUNxBKoNA
   - https://www.google.com/maps/search/?api=1&query=The+Jackalope+Weymouth+Mews+Marylebone+London
   - What it is: 18th-century Marylebone mews pub on Weymouth Mews — go for the Liu Xiaomian downstairs, serving spicy Chongqing noodles.
   - Tags: food, pub, chinese, sichuan, marylebone
-- Phat Phuc
+- Phat Phuc Noodle Bar
   - https://maps.app.goo.gl/W2io2u3mhDs3AaX7A
-  - tbd
+  - What it is: Outdoor Vietnamese noodle bar tucked into a courtyard off King's Road in Chelsea, lunch-only and known for its pho and laksa.
+  - Tags: food, restaurant, vietnamese, chelsea, casual
+- Anjanaas
+  - https://www.google.com/maps/search/?api=1&query=Anjanaas+Willesden+Lane+London
+  - What it is: Family-run South Indian restaurant on Willesden Lane, focused on Kerala coastal cooking alongside tandoor classics.
+  - Tags: food, restaurant, indian, south-indian, kerala, willesden
+- Vijay
+  - https://www.google.com/maps/search/?api=1&query=Vijay+India+Restaurant+Willesden+Lane+London
+  - What it is: South Indian restaurant on Willesden Lane, opened in 1964 as the UK's first South Indian, known for Keralan cooking and lamb specialities.
+  - Tags: food, restaurant, indian, south-indian, willesden
+- Bona
+  - https://www.google.com/maps/search/?api=1&query=Bona+Sourdough+Pizza+Dartmouth+Road+Forest+Hill+London
+  - What it is: Sourdough pizzeria on Dartmouth Road in Forest Hill, baking 24-hour fermented dough in a wood-fired Acunto oven for Neapolitan-style pizzas.
+  - Tags: food, restaurant, pizza, italian, forest-hill
 
 ## Street Food
 
@@ -162,10 +183,6 @@ Google Maps Collection Link: https://maps.app.goo.gl/TanA1A3spUNxBKoNA
   - https://www.google.com/maps/search/?api=1&query=Beigel+Bake+Brick+Lane+London
   - What it is: 24-hour Brick Lane bakery, the salt-beef bagel institution.
   - Tags: street-food, bagel, late-night, brick-lane
-- Lisboa Patisserie
-  - https://www.google.com/maps/search/?api=1&query=Lisboa+Patisserie+Golborne+Road+London
-  - What it is: Long-running Portuguese bakery on Golborne Road for pastéis de nata, savouries and strong espresso at the counter.
-  - Tags: street-food, portuguese, bakery, golborne, pastel-de-nata
 
 ## Nature
 
@@ -194,7 +211,17 @@ Google Maps Collection Link: https://maps.app.goo.gl/TanA1A3spUNxBKoNA
   - What it is: Free Forest Hill museum (anthropology, natural history, musical instruments — and the famous overstuffed walrus) set in 16 acres of gardens with panoramic views over central London.
   - Tags: nature, museum, gardens, view, forest-hill, free
 - Sydenham Hill Wood
-  - tbd
+  - https://www.google.com/maps/search/?api=1&query=Sydenham+Hill+Wood+London
+  - What it is: Ten-hectare ancient woodland nature reserve in south London with a Victorian folly, a disused railway tunnel and Cox's Walk under ancient oaks.
+  - Tags: nature, wood, walk, sydenham, free
+- Parkland Walk
+  - https://www.google.com/maps/search/?api=1&query=Parkland+Walk+Finsbury+Park+London
+  - What it is: 4 km linear nature reserve following the disused Great Northern Railway line from Finsbury Park up to Alexandra Palace — London's longest.
+  - Tags: nature, walk, finsbury-park, history, free
+- Green Chain Walk
+  - https://www.google.com/maps/search/?api=1&query=Green+Chain+Walk+London
+  - What it is: 52-mile network of linked walking routes through south-east London's parks and woods, from the Thames Barrier down to Crystal Palace.
+  - Tags: nature, walk, free
 
 ## Buildings/Architecture
 
@@ -296,4 +323,3 @@ Google Maps Collection Link: https://maps.app.goo.gl/TanA1A3spUNxBKoNA
   - https://www.google.com/maps/search/?api=1&query=New+Bond+Street+Mayfair+London
   - What it is: Mayfair luxury-shopping spine — New Bond St runs south from Oxford St into Old Bond St, ending at Piccadilly. Flagships, galleries and Royal Arcade.
   - Tags: street, shopping, mayfair, luxury
-

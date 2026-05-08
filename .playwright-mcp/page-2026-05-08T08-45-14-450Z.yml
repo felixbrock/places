@@ -1,0 +1,352 @@
+- generic "Google Maps" [ref=e2]:
+  - generic [ref=e3]:
+    - application "Map·Use arrow keys to pan the map.·Get details about a place by pressing its corresponding number key." [ref=e46]
+    - search [ref=e49]:
+      - button "Back" [ref=e51] [cursor=pointer]:
+        - generic [ref=e52]: 
+      - generic [ref=e53]:
+        - generic [ref=e54]:
+          - generic [ref=e55]: Search Google Maps
+          - combobox "Search Google Maps" [ref=e56]
+        - button "Search" [ref=e58] [cursor=pointer]:
+          - generic [ref=e59]: 
+        - button "Close" [ref=e61] [cursor=pointer]:
+          - generic [ref=e62]: 
+    - generic [ref=e11]:
+      - generic [ref=e12]:
+        - list [ref=e14]:
+          - listitem [ref=e15]:
+            - button "Menu" [ref=e16] [cursor=pointer]:
+              - generic [ref=e18]: 
+          - listitem [ref=e19]:
+            - button "Saved" [ref=e20] [cursor=pointer]:
+              - generic [ref=e22]: 
+              - generic [ref=e24]: Saved
+          - listitem [ref=e25]:
+            - button "Recents" [ref=e26] [cursor=pointer]:
+              - generic [ref=e28]: 
+              - generic [ref=e30]: Recents
+          - listitem [ref=e64]:
+            - button "london_recommendations" [ref=e65] [cursor=pointer]:
+              - generic [ref=e71]: 
+              - generic [ref=e73]: london_recommendations
+          - listitem [ref=e74]:
+            - button "27 places London" [ref=e75] [cursor=pointer]:
+              - generic "27 places" [ref=e83]: "27"
+              - generic [ref=e85]: London
+            - button "2 places Stockholm" [ref=e86] [cursor=pointer]:
+              - generic "2 places" [ref=e94]: "2"
+              - generic [ref=e96]: Stockholm
+            - button "Sennelager" [ref=e97] [cursor=pointer]:
+              - generic [ref=e103]: Sennelager
+          - listitem [ref=e32]:
+            - button "Get app" [ref=e33] [cursor=pointer]:
+              - generic [ref=e35]: 
+              - generic [ref=e37]: Get app
+        - main [ref=e107]:
+          - generic [ref=e108]:
+            - button "Choose icon" [active] [ref=e111]:
+              - generic [ref=e113] [cursor=pointer]: 
+            - generic [ref=e114]:
+              - heading "london_recommendations" [level=1] [ref=e116]:
+                - button "london_recommendations" [ref=e118]:
+                  - generic [ref=e120] [cursor=pointer]: london_recommendations
+              - generic [ref=e121]:
+                - img "Felix Brockmeier" [ref=e124]
+                - heading "Felix Brockmeier·Shared·68 places" [level=2] [ref=e125]
+            - button "More options" [ref=e127] [cursor=pointer]:
+              - generic [ref=e128]: 
+          - generic [ref=e130]:
+            - textbox "List description" [ref=e131]
+            - generic: Add a list description
+          - generic [ref=e132]:
+            - button "Share" [ref=e134] [cursor=pointer]:
+              - generic [ref=e135]:
+                - generic [ref=e136]: 
+                - generic [ref=e137]: Share
+            - button "Add a place" [ref=e139] [cursor=pointer]:
+              - generic [ref=e140]:
+                - generic [ref=e141]: 
+                - generic [ref=e142]: Add a place
+          - generic [ref=e144]:
+            - generic [ref=e146]:
+              - button "Sydenham Hill Wood 4.6 stars 438 reviews Nature reserve" [ref=e148] [cursor=pointer]:
+                - img [ref=e150]
+                - generic [ref=e151]:
+                  - generic [ref=e152]: Sydenham Hill Wood
+                  - generic [ref=e153]:
+                    - img "4.6 stars 438 reviews" [ref=e158]:
+                      - text: "4.6"
+                      - text: (438)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e160]
+                    - generic [ref=e162]: Nature reserve
+              - textbox "Note" [ref=e165]: "What it is: Ten-hectare ancient woodland nature reserve in south London with a Victorian folly, a disused railway tunnel and Cox's Walk under ancient oaks. Tags: nature, wood, walk, sydenham, free"
+            - generic [ref=e167]:
+              - button "Phat Phuc Noodle Bar 4.6 stars 2,354 reviews £10–20 Vietnamese" [ref=e169] [cursor=pointer]:
+                - img [ref=e171]
+                - generic [ref=e172]:
+                  - generic [ref=e173]: Phat Phuc Noodle Bar
+                  - generic [ref=e174]:
+                    - img "4.6 stars 2,354 reviews" [ref=e179]:
+                      - text: "4.6"
+                      - text: (2,354)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e181]
+                    - generic [ref=e182]:
+                      - generic [ref=e183]: £10–20
+                      - generic [ref=e184]: · Vietnamese
+              - textbox "Note" [ref=e187]: "What it is: Outdoor Vietnamese noodle bar tucked into a courtyard off King's Road in Chelsea, lunch-only and known for its pho and laksa. Tags: food, restaurant, vietnamese, chelsea, casual"
+            - generic [ref=e189]:
+              - button "Lloyd's building One Lime St London EC3M 7HA" [ref=e191] [cursor=pointer]:
+                - img [ref=e193]
+                - generic [ref=e194]:
+                  - generic [ref=e195]: Lloyd's building
+                  - generic [ref=e196]:
+                    - generic [ref=e198]: One Lime St
+                    - generic [ref=e200]: London
+                    - generic [ref=e202]: EC3M 7HA
+              - textbox "Note" [ref=e205]: "What it is: Richard Rogers' 1986 'inside-out' high-tech tower on Lime Street — lifts, ducts and pipes all running up the outside; Grade I-listed. Tags: architecture, high-tech, city, history"
+            - generic [ref=e207]:
+              - button "Nandine 4.7 stars 807 reviews £20–30 Middle Eastern" [ref=e209] [cursor=pointer]:
+                - img [ref=e211]
+                - generic [ref=e212]:
+                  - generic [ref=e213]: Nandine
+                  - generic [ref=e214]:
+                    - img "4.7 stars 807 reviews" [ref=e219]:
+                      - text: "4.7"
+                      - text: (807)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e221]
+                    - generic [ref=e222]:
+                      - generic [ref=e223]: £20–30
+                      - generic [ref=e224]: · Middle Eastern
+              - textbox "Note" [ref=e227]: "What it is: Family-run Kurdish restaurant on Camberwell Church Street, cooking matriarch Pary Baban's home recipes. Tags: food, restaurant, kurdish, camberwell"
+            - generic [ref=e229]:
+              - button "Horniman Museum and Gardens 4.6 stars 9,490 reviews Museum" [ref=e231] [cursor=pointer]:
+                - img [ref=e233]
+                - generic [ref=e234]:
+                  - generic [ref=e235]: Horniman Museum and Gardens
+                  - generic [ref=e236]:
+                    - img "4.6 stars 9,490 reviews" [ref=e241]:
+                      - text: "4.6"
+                      - text: (9,490)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e243]
+                    - generic [ref=e245]: Museum
+              - textbox "Note" [ref=e248]: "What it is: Free Forest Hill museum (anthropology, natural history, musical instruments — and the famous overstuffed walrus) set in 16 acres of gardens with panoramic views over central London. Tags: nature, museum, gardens, view, forest-hill, free"
+            - generic [ref=e250]:
+              - button "The Jackalope 4.6 stars 728 reviews £10–20 Pub" [ref=e252] [cursor=pointer]:
+                - img [ref=e254]
+                - generic [ref=e255]:
+                  - generic [ref=e256]: The Jackalope
+                  - generic [ref=e257]:
+                    - img "4.6 stars 728 reviews" [ref=e262]:
+                      - text: "4.6"
+                      - text: (728)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e264]
+                    - generic [ref=e265]:
+                      - generic [ref=e266]: £10–20
+                      - generic [ref=e267]: · Pub
+              - textbox "Note" [ref=e270]: "What it is: 18th-century Marylebone mews pub on Weymouth Mews — go for the Liu Xiaomian downstairs, serving spicy Chongqing noodles. Tags: food, pub, chinese, sichuan, marylebone"
+            - generic [ref=e272]:
+              - button "Heritage Dulwich 4.9 stars 635 reviews £30–70 Indian" [ref=e274] [cursor=pointer]:
+                - img [ref=e276]
+                - generic [ref=e277]:
+                  - generic [ref=e278]: Heritage Dulwich
+                  - generic [ref=e279]:
+                    - img "4.9 stars 635 reviews" [ref=e284]:
+                      - text: "4.9"
+                      - text: (635)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e286]
+                    - generic [ref=e287]:
+                      - generic [ref=e288]: £30–70
+                      - generic [ref=e289]: · Indian
+              - textbox "Note" [ref=e292]: "What it is: Modern Indian fine-dining restaurant on Rosendale Road in West Dulwich, in the Michelin Guide for Dayashankar Sharma's contemporary cooking. Tags: food, restaurant, indian, dulwich"
+            - generic [ref=e294]:
+              - button "Naifs 4.9 stars 382 reviews £30–70 Vegan" [ref=e296] [cursor=pointer]:
+                - img [ref=e298]
+                - generic [ref=e299]:
+                  - generic [ref=e300]: Naifs
+                  - generic [ref=e301]:
+                    - img "4.9 stars 382 reviews" [ref=e306]:
+                      - text: "4.9"
+                      - text: (382)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e308]
+                    - generic [ref=e309]:
+                      - generic [ref=e310]: £30–70
+                      - generic [ref=e311]: · Vegan
+              - textbox "Note" [ref=e314]: "What it is: Independent vegan bistro on a quiet Peckham corner, Michelin-recommended for original seasonal sharing plates. Tags: food, restaurant, vegan, peckham"
+            - generic [ref=e316]:
+              - button "Cöödie - Coffee Shop and Cookie Bar in Peckham 4.8 stars 206 reviews £1–10 Coffee shop" [ref=e318] [cursor=pointer]:
+                - img [ref=e320]
+                - generic [ref=e321]:
+                  - generic [ref=e322]: Cöödie - Coffee Shop and Cookie Bar in Peckham
+                  - generic [ref=e323]:
+                    - img "4.8 stars 206 reviews" [ref=e328]:
+                      - text: "4.8"
+                      - text: (206)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e330]
+                    - generic [ref=e331]:
+                      - generic [ref=e332]: £1–10
+                      - generic [ref=e333]: · Coffee shop
+              - textbox "Note" [ref=e336]: "What it is: Minimalist coffee shop and cookie bar on Peckham High Street with adventurous flavours like raspberry-hoisin and sobrasada-cheese. Tags: coffee, cafe, cookies, peckham"
+            - generic [ref=e338]:
+              - button "Nola Coffee 4.7 stars 707 reviews £1–10 Cafe" [ref=e340] [cursor=pointer]:
+                - img [ref=e342]
+                - generic [ref=e343]:
+                  - generic [ref=e344]: Nola Coffee
+                  - generic [ref=e345]:
+                    - img "4.7 stars 707 reviews" [ref=e350]:
+                      - text: "4.7"
+                      - text: (707)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e352]
+                    - generic [ref=e353]:
+                      - generic [ref=e354]: £1–10
+                      - generic [ref=e355]: · Cafe
+              - textbox "Note" [ref=e358]: "What it is: Friendly speciality coffee shop on Rye Lane in Peckham, run by a musician couple, with a minimal wood-panelled interior. Tags: coffee, speciality, peckham"
+            - generic [ref=e360]:
+              - button "Daydreamer 4.6 stars 51 reviews £1–10 Coffee shop" [ref=e362] [cursor=pointer]:
+                - img [ref=e364]
+                - generic [ref=e365]:
+                  - generic [ref=e366]: Daydreamer
+                  - generic [ref=e367]:
+                    - img "4.6 stars 51 reviews" [ref=e372]:
+                      - text: "4.6"
+                      - text: (51)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e374]
+                    - generic [ref=e375]:
+                      - generic [ref=e376]: £1–10
+                      - generic [ref=e377]: · Coffee shop
+              - textbox "Note" [ref=e380]: "What it is: Small neighbourhood cafe on the Honor Oak Park high street in south-east London. Tags: coffee, cafe, honor-oak"
+            - generic [ref=e382]:
+              - button "Calico Coffee 4.7 stars 426 reviews £1–10 Coffee shop" [ref=e384] [cursor=pointer]:
+                - img [ref=e386]
+                - generic [ref=e387]:
+                  - generic [ref=e388]: Calico Coffee
+                  - generic [ref=e389]:
+                    - img "4.7 stars 426 reviews" [ref=e394]:
+                      - text: "4.7"
+                      - text: (426)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e396]
+                    - generic [ref=e397]:
+                      - generic [ref=e398]: £1–10
+                      - generic [ref=e399]: · Coffee shop
+              - textbox "Note" [ref=e402]: "What it is: Speciality coffee shop and in-house roastery on Lower Marsh near Waterloo, with a deep pour-over menu. Tags: coffee, speciality, waterloo"
+            - generic [ref=e404]:
+              - button "New Bond St 4.8 stars 243 reviews" [ref=e406] [cursor=pointer]:
+                - img [ref=e408]
+                - generic [ref=e409]:
+                  - generic [ref=e410]: New Bond St
+                  - img "4.8 stars 243 reviews" [ref=e416]:
+                    - text: "4.8"
+                    - text: (243)
+                    - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e418]
+              - textbox "Note" [ref=e421]: "What it is: Mayfair stretch of luxury flagships and galleries running south from Oxford Street; Old Bond Street continues it down to Piccadilly. Tags: street, shopping, mayfair, luxury"
+            - generic [ref=e423]:
+              - button "Old Bond St" [ref=e425] [cursor=pointer]:
+                - img [ref=e427]
+                - generic [ref=e429]: Old Bond St
+              - textbox "Note" [ref=e432]: "What it is: Short Mayfair extension of New Bond Street with luxury houses and Royal Arcade, ending at Piccadilly. Tags: street, shopping, mayfair, luxury"
+            - generic [ref=e434]:
+              - button "Westbourne Grove Church 4.5 stars 45 reviews Evangelical church" [ref=e436] [cursor=pointer]:
+                - img [ref=e438]
+                - generic [ref=e439]:
+                  - generic [ref=e440]: Westbourne Grove Church
+                  - generic [ref=e441]:
+                    - img "4.5 stars 45 reviews" [ref=e446]:
+                      - text: "4.5"
+                      - text: (45)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e448]
+                    - generic [ref=e450]: Evangelical church
+              - textbox "Note" [ref=e453]: "What it is: Striking white-stuccoed Victorian church with shops inside at the corner of Westbourne Grove and Ledbury Road in Notting Hill. Tags: architecture, church, notting-hill"
+            - generic [ref=e455]:
+              - button "Brick Lane Bookshop 4.7 stars 503 reviews Book Shop" [ref=e457] [cursor=pointer]:
+                - img [ref=e459]
+                - generic [ref=e460]:
+                  - generic [ref=e461]: Brick Lane Bookshop
+                  - generic [ref=e462]:
+                    - img "4.7 stars 503 reviews" [ref=e467]:
+                      - text: "4.7"
+                      - text: (503)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e469]
+                    - generic [ref=e471]: Book Shop
+              - textbox "Note" [ref=e474]: "What it is: Independent East End bookshop on Brick Lane with a strong local-history and London-writing section. Tags: shopping, books, brick-lane"
+            - generic [ref=e476]:
+              - button "The Brick Lane Vintage Market 4.3 stars 415 reviews Vintage Clothing Shop" [ref=e478] [cursor=pointer]:
+                - img [ref=e480]
+                - generic [ref=e481]:
+                  - generic [ref=e482]: The Brick Lane Vintage Market
+                  - generic [ref=e483]:
+                    - img "4.3 stars 415 reviews" [ref=e488]:
+                      - text: "4.3"
+                      - text: (415)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e490]
+                    - generic [ref=e492]: Vintage Clothing Shop
+              - textbox "Note" [ref=e495]: "What it is: Weekend basement market under the Old Truman Brewery packed with vintage clothing stalls. Tags: shopping, vintage, market, brick-lane"
+            - generic [ref=e497]:
+              - button "Shreeji Newsagents 4.2 stars 106 reviews Newsstand" [ref=e499] [cursor=pointer]:
+                - img [ref=e501]
+                - generic [ref=e502]:
+                  - generic [ref=e503]: Shreeji Newsagents
+                  - generic [ref=e504]:
+                    - img "4.2 stars 106 reviews" [ref=e509]:
+                      - text: "4.2"
+                      - text: (106)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e511]
+                    - generic [ref=e513]: Newsstand
+              - textbox "Note" [ref=e516]: "What it is: Marylebone newsagent on Chiltern Street stocking an exceptional range of international magazines and design titles. Tags: shopping, magazines, marylebone"
+            - generic [ref=e518]:
+              - button "Eataly London 4.1 stars 6,480 reviews £10–50 Food court" [ref=e520] [cursor=pointer]:
+                - img [ref=e522]
+                - generic [ref=e523]:
+                  - generic [ref=e524]: Eataly London
+                  - generic [ref=e525]:
+                    - img "4.1 stars 6,480 reviews" [ref=e530]:
+                      - text: "4.1"
+                      - text: (6,480)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e532]
+                    - generic [ref=e533]:
+                      - generic [ref=e534]: £10–50
+                      - generic [ref=e535]: · Food court
+              - textbox "Note" [ref=e538]: "What it is: Italian food hall, deli and restaurants near Liverpool Street. Tags: shopping, food, italian, liverpool-street"
+            - generic [ref=e540]:
+              - button "Toconoco 4.5 stars 671 reviews £10–20 Cafe" [ref=e542] [cursor=pointer]:
+                - img [ref=e544]
+                - generic [ref=e545]:
+                  - generic [ref=e546]: Toconoco
+                  - generic [ref=e547]:
+                    - img "4.5 stars 671 reviews" [ref=e552]:
+                      - text: "4.5"
+                      - text: (671)
+                      - img "Learn more about legal disclosure regarding public reviews on Google Maps" [ref=e554]
+                    - generic [ref=e555]:
+                      - generic [ref=e556]: £10–20
+                      - generic [ref=e557]: · Cafe
+              - textbox "Note" [ref=e560]: "What it is: Tiny Japanese-leaning cafe in Haggerston by Regent's Canal serving onigiri, matcha and home-style plates. Tags: coffee, cafe, japanese, haggerston, canal"
+      - button "Collapse side panel" [ref=e43] [cursor=pointer]:
+        - generic [ref=e44]: 
+    - generic [ref=e596]:
+      - button "Google apps" [ref=e600] [cursor=pointer]:
+        - img [ref=e601]
+      - 'button "Google Account: Felix Brockmeier (fe.brockmeier@gmail.com)" [ref=e606] [cursor=pointer]':
+        - img [ref=e608]
+        - img [ref=e614]
+    - generic:
+      - generic:
+        - button "Show Your Location" [ref=e617] [cursor=pointer]:
+          - generic [ref=e619]: 
+        - generic [ref=e621] [cursor=pointer]:
+          - button "Zoom in" [ref=e622]
+          - button "Zoom out" [ref=e625]
+      - button "Browse Street View images" [ref=e633]
+      - generic [ref=e635]:
+        - generic "Interactive map" [ref=e636]
+        - generic [ref=e640] [cursor=pointer]:
+          - generic [ref=e641]: 
+          - generic [ref=e642]: Layers
+        - button "Layers" [ref=e643] [cursor=pointer]
+    - generic [ref=e645]:
+      - contentinfo [ref=e648]:
+        - text: Map data ©2026 Google
+        - button "United Kingdom" [ref=e649] [cursor=pointer]
+        - button "Terms" [ref=e650] [cursor=pointer]
+        - button "Privacy" [ref=e651] [cursor=pointer]
+        - button "Send product feedback" [ref=e652] [cursor=pointer]
+      - button "2 km" [ref=e654] [cursor=pointer]: 2 km
