@@ -95,6 +95,11 @@
     padding: 14px 0 12px;
   }
 
+  /* The .filters block is the positioning context for the search bar and the
+     chip panels: those are absolute-positioned overlays so opening them never
+     grows the slate band's height. */
+  .filters { position: relative; }
+
   /* Masthead row at the top of the filter band: title left, Maps link right */
   .filter-header {
     display: flex;
@@ -175,8 +180,9 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 32px;
+    gap: 7px;
     height: 32px;
+    padding: 0 10px;
     border: 1px solid var(--ink);
     border-radius: 2px;
     background: var(--bg);
@@ -191,18 +197,51 @@
     background: var(--ink);
     color: var(--bg);
   }
+  /* Tiny shortcut hint inside the search button. Stays visible on desktop so
+     the affordance is discoverable; hidden on touch/mobile where it's noise. */
+  .search-kbd {
+    font-family: var(--mono);
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: currentColor;
+    opacity: 0.65;
+    line-height: 1;
+    padding: 2px 5px;
+    border: 1px solid currentColor;
+    border-radius: 2px;
+    pointer-events: none;
+  }
+  .search-toggle:hover .search-kbd { opacity: 0.85; }
+  .search-toggle.is-active .search-kbd { opacity: 0.75; }
+  @media (max-width: 720px) {
+    .search-toggle { width: 32px; padding: 0; gap: 0; }
+    .search-kbd { display: none; }
+  }
 
   .search-bar {
+    /* Positioned overlay — see .filters position context above. */
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 8px;
+    z-index: 5;
     display: flex;
     align-items: center;
     gap: 8px;
-    margin-top: 12px;
-    padding: 6px 10px;
+    padding: 8px 12px;
     background: var(--bg);
     border: 1px solid var(--ink);
     border-radius: 2px;
+    box-shadow: 0 14px 32px -12px rgba(0,0,0,0.35);
+    animation: panelDrop 0.18s cubic-bezier(.2,.8,.2,1);
   }
   .search-bar[hidden] { display: none; }
+  @keyframes panelDrop {
+    from { opacity: 0; transform: translateY(-4px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
   .search-bar-icon { color: var(--ink-quiet); flex-shrink: 0; }
   .search-bar input {
     flex: 1;
@@ -273,41 +312,37 @@
     color: var(--ink);
   }
 
-  /* Active filters strip — chips representing currently-selected filters across all tabs */
+  /* Active filters — inline strip inside .tabs-row, between the Type/Area/Tag
+     tabs and the search button. Lives at the tab row's height so toggling a
+     filter on/off never changes the filter band's overall height. */
   .active-filters {
     display: flex;
     align-items: center;
-    gap: 12px;
-    margin-bottom: 10px;
-    padding: 9px 0;
-    border-top: 1px solid var(--rule);
-    border-bottom: 1px solid var(--rule);
-  }
-  .active-label {
-    font-family: var(--mono);
-    font-size: 9.5px;
-    font-weight: 500;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--muted);
-    flex-shrink: 0;
+    flex: 1 1 0;
+    min-width: 0;
   }
   .active-chips {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     gap: 5px;
-    flex: 1;
+    overflow-x: auto;
+    scrollbar-width: none;
+    /* Subtle fade on the right edge so an overflowing strip hints at more. */
+    mask-image: linear-gradient(to right, black calc(100% - 16px), transparent);
+    -webkit-mask-image: linear-gradient(to right, black calc(100% - 16px), transparent);
+    padding: 2px 4px;
   }
+  .active-chips::-webkit-scrollbar { display: none; }
   .active-chip {
     display: inline-flex;
     align-items: center;
-    gap: 8px;
-    padding: 4px 10px;
+    gap: 6px;
+    padding: 3px 8px;
     background: var(--ink);
     color: var(--bg);
     border-radius: 2px;
     font-family: var(--mono);
-    font-size: 11px;
+    font-size: 10.5px;
     font-weight: 500;
     letter-spacing: 0.02em;
     cursor: pointer;
@@ -315,6 +350,7 @@
     line-height: 1.2;
     transition: opacity 0.18s ease;
     white-space: nowrap;
+    flex-shrink: 0;
   }
   .active-chip:hover { opacity: 0.7; }
   .active-chip .x {
@@ -330,9 +366,24 @@
   }
   .chips.is-collapsed { display: none; }
   .chips.tab-panel[hidden] { display: none; }
-  /* Breathing room between the tabs row and the expanded chip panel below it.
-     Only applies when the panel is visible, so collapsed state stays compact. */
-  .chips.tab-panel:not([hidden]) { margin-top: 12px; }
+  /* Chip panel as floating overlay below the band — keeps the band a constant
+     height across all states. Internal scroll if a panel has many chips. */
+  .chips.tab-panel:not([hidden]) {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 8px;
+    z-index: 5;
+    padding: 14px 16px;
+    background: var(--bg);
+    border: 1px solid var(--ink);
+    border-radius: 2px;
+    box-shadow: 0 14px 32px -12px rgba(0,0,0,0.35);
+    max-height: min(420px, 70vh);
+    overflow-y: auto;
+    animation: panelDrop 0.18s cubic-bezier(.2,.8,.2,1);
+  }
 
   .chip {
     display: inline-flex;
@@ -519,12 +570,34 @@
   .pin[data-cat="Buildings/Architecture"]{ background: #7c3aed; } /* violet*/
   .pin[data-cat="Street Food"]           { background: #ca8a04; } /* yellow*/
 
-  /* Hover/selected: keep the category colour (so identity is preserved) and pop via
-     scale + a thick white ring + stronger drop-shadow. */
+  /* Hover: pop via scale + double ring (white inner, dark outer halo) so the pin
+     reads clearly even when sitting in a dense cluster of neighbours. */
   .pin:hover, .pin.is-active {
-    transform: scale(1.32);
-    box-shadow: 0 0 0 3px var(--bg), 0 6px 16px -2px rgba(0,0,0,0.45);
+    transform: scale(1.55);
+    box-shadow:
+      0 0 0 3px var(--bg),
+      0 0 0 6px rgba(15, 23, 42, 0.55),
+      0 8px 22px -3px rgba(0,0,0,0.55);
     z-index: 1000 !important;
+  }
+  /* Selected (clicked from list or map): persistent, stronger than hover so the
+     "locked" pin is unmistakable in a large bubble of locations. */
+  .pin.is-selected {
+    transform: scale(1.7);
+    box-shadow:
+      0 0 0 3px var(--bg),
+      0 0 0 7px var(--ink),
+      0 12px 30px -4px rgba(0,0,0,0.6);
+    z-index: 1001 !important;
+    animation: pinSelect 0.32s cubic-bezier(.2,.9,.3,1.2);
+  }
+  .pin.is-selected:hover, .pin.is-selected.is-active {
+    transform: scale(1.78);
+  }
+  @keyframes pinSelect {
+    0%   { transform: scale(1); }
+    55%  { transform: scale(1.95); }
+    100% { transform: scale(1.7); }
   }
 
   /* Map controls — uniform monochrome pills with sharp corners */
@@ -678,97 +751,7 @@
     box-shadow: 0 6px 16px -8px rgba(0,0,0,0.35);
   }
 
-  /* Fixed info card — replaces anchored popups so the content is always
-     fully visible regardless of pin position. Sits above the locate button
-     at bottom-left so the two never overlap. */
-  .map-info-card {
-    position: absolute;
-    left: 12px;
-    right: 12px;
-    bottom: 64px;             /* clears locate button (bottom 12 + height 34 + spacing) */
-    max-width: 360px;
-    background: var(--bg);
-    border: 1px solid var(--ink);
-    border-radius: 2px;
-    padding: 14px 16px 12px;
-    box-shadow: 0 12px 30px -10px rgba(0,0,0,0.30);
-    z-index: 800;
-    font-family: var(--mono);
-    animation: cardIn 0.2s cubic-bezier(.2,.8,.2,1);
-  }
-  .map-info-card[hidden] { display: none; }
-  @keyframes cardIn {
-    from { opacity: 0; transform: translateY(6px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  .map-info-card .info-close {
-    position: absolute;
-    top: 6px; right: 6px;
-    width: 22px; height: 22px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: none;
-    background: transparent;
-    color: var(--ink-quiet);
-    font-size: 16px;
-    line-height: 1;
-    cursor: pointer;
-    border-radius: 2px;
-    transition: all 0.14s ease;
-  }
-  .map-info-card .info-close:hover {
-    background: var(--ink);
-    color: var(--bg);
-  }
-  .map-info-card .info-cat {
-    font-size: 9px;
-    font-weight: 500;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--muted);
-    margin-bottom: 5px;
-  }
-  .map-info-card .info-name {
-    font-size: 13.5px;
-    font-weight: 600;
-    letter-spacing: -0.005em;
-    line-height: 1.3;
-    margin-bottom: 6px;
-    padding-right: 22px; /* leave room for close button */
-    color: var(--ink);
-  }
-  .map-info-card .info-desc {
-    font-size: 11.5px;
-    color: var(--ink-quiet);
-    line-height: 1.55;
-    margin-bottom: 10px;
-    letter-spacing: -0.005em;
-  }
-  .map-info-card .info-desc:empty { display: none; margin: 0; }
-  .map-info-card .info-link {
-    display: inline-block;
-    font-size: 9.5px;
-    font-weight: 500;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
-    color: var(--accent);
-    border-bottom: 1px solid currentColor;
-    padding-bottom: 1px;
-    transition: opacity 0.14s ease;
-  }
-  .map-info-card .info-link:hover { opacity: 0.6; }
-  .map-info-card .info-link[hidden] { display: none; }
-
   @media (max-width: 720px) {
-    .map-info-card {
-      left: 8px; right: 8px;
-      bottom: 58px;           /* clear locate button on mobile too */
-      max-width: none;
-      padding: 10px 12px 10px;
-    }
-    .map-info-card .info-name { font-size: 12.5px; }
-    .map-info-card .info-desc { font-size: 11px; -webkit-line-clamp: 3; line-clamp: 3; display: -webkit-box; -webkit-box-orient: vertical; overflow: hidden; }
     .leaflet-control.map-locate-control { margin: 0 0 8px 8px !important; }
     .leaflet-control.map-locate-control button { width: 30px; height: 30px; }
     .leaflet-control.map-locate-control button svg { width: 14px; height: 14px; }
@@ -1211,7 +1194,7 @@
 
     .filter-tabs { overflow-x: auto; -webkit-overflow-scrolling: touch; align-self: flex-start; }
     .tab { font-size: 10px; padding: 6px 12px; flex-shrink: 0; }
-    .active-filters { flex-direction: column; align-items: flex-start; gap: 6px; padding: 6px 0; }
+    .active-chips { padding: 0; }
 
     .chip { padding: 5px 10px; font-size: 12px; }
     .chip.tag-chip { padding: 4px 9px; font-size: 11px; }
@@ -1256,9 +1239,11 @@
     color: var(--bg);
     border-color: var(--bg);
   }
+  /* Search bar overlay sits below the slate band as a floating white card —
+     keep the dark border so it reads as a popover, not as part of the band. */
   .filters-wrap .search-bar {
     background: var(--bg);
-    border-color: var(--bg);
+    border-color: var(--ink);
   }
   .filters-wrap .tab {
     background: transparent;
@@ -1279,11 +1264,6 @@
   }
   .filters-wrap .meta-cta:hover { opacity: 0.7; }
 
-  .filters-wrap .active-filters {
-    border-top-color: rgba(255, 255, 255, 0.22);
-    border-bottom-color: rgba(255, 255, 255, 0.22);
-  }
-  .filters-wrap .active-label { color: rgba(255, 255, 255, 0.65); }
   .filters-wrap .active-chip {
     background: var(--bg);
     color: var(--accent);
@@ -1311,6 +1291,33 @@
   }
   .filters-wrap .chip-count { color: rgba(255, 255, 255, 0.6); }
   .filters-wrap .chip[aria-pressed="true"] .chip-count { color: rgba(185, 28, 28, 0.55); }
+
+  /* Chip panels are now floating white overlays beneath the slate band, so the
+     chips inside them go back to default B&W styling instead of slate-inverted. */
+  .filters-wrap .chips.tab-panel .chip {
+    background: var(--bg);
+    border-color: var(--rule);
+    color: var(--ink-quiet);
+  }
+  .filters-wrap .chips.tab-panel .chip:hover {
+    background: var(--bg-soft);
+    border-color: var(--ink);
+    color: var(--ink);
+  }
+  .filters-wrap .chips.tab-panel .chip[aria-pressed="true"] {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--bg);
+  }
+  .filters-wrap .chips.tab-panel .chip[aria-pressed="true"]:hover {
+    background: var(--ink-soft);
+    border-color: var(--ink-soft);
+    color: var(--bg);
+  }
+  .filters-wrap .chips.tab-panel .chip-count { color: var(--muted); }
+  .filters-wrap .chips.tab-panel .chip[aria-pressed="true"] .chip-count {
+    color: rgba(255, 255, 255, 0.55);
+  }
 
   .filters-wrap .filter-actions {
     color: rgba(255, 255, 255, 0.75);
@@ -1362,11 +1369,15 @@
             Tag<span class="tab-badge" id="tagBadge" hidden></span>
           </button>
         </div>
-        <button class="search-toggle" id="searchToggle" aria-label="Search places" aria-expanded="false" aria-controls="searchBar">
+        <div class="active-filters" id="activeFilters" hidden>
+          <div class="active-chips" id="activeChips"></div>
+        </div>
+        <button class="search-toggle" id="searchToggle" aria-label="Search places (Ctrl+K)" title="Search (Ctrl+K)" aria-expanded="false" aria-controls="searchBar">
           <svg viewBox="0 0 16 16" width="14" height="14" aria-hidden="true">
             <circle cx="7" cy="7" r="5" fill="none" stroke="currentColor" stroke-width="1.6"/>
             <path d="M11 11 L14.5 14.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
           </svg>
+          <kbd class="search-kbd" id="searchKbd" aria-hidden="true">Ctrl K</kbd>
         </button>
       </div>
 
@@ -1377,11 +1388,6 @@
         </svg>
         <input type="text" id="searchInput" placeholder="Search names, descriptions, tags…" autocomplete="off" spellcheck="false" />
         <button class="search-clear" id="searchClear" aria-label="Clear search" hidden>✕</button>
-      </div>
-
-      <div class="active-filters" id="activeFilters" hidden>
-        <span class="active-label">Active</span>
-        <div class="active-chips" id="activeChips"></div>
       </div>
 
       <div class="chips tab-panel" id="typeChips" role="tabpanel" hidden></div>
@@ -1405,13 +1411,6 @@
     </main>
     <aside class="col-map" aria-label="Map of all places">
       <div id="map"></div>
-      <div class="map-info-card" id="mapInfo" hidden role="region" aria-label="Selected place">
-        <button class="info-close" id="infoClose" aria-label="Close">×</button>
-        <div class="info-cat" id="infoCat"></div>
-        <div class="info-name" id="infoName"></div>
-        <div class="info-desc" id="infoDesc"></div>
-        <a class="info-link" id="infoLink" target="_blank" rel="noopener">Open in Maps ↗</a>
-      </div>
     </aside>
   </div>
 </div>
@@ -1731,7 +1730,9 @@ const AREA_TAGS = new Set([
     renderActiveFilters();
     updateMeta();
     renderMarkers();
-    flyToFilteredBounds();
+    // Deliberately NOT flying the map: when the user has zoomed in to a specific
+    // area and then picks a filter, they want to keep working within that view.
+    // Auto-fitting to filtered bounds would yank them back out.
     renderEntries();
   }
 
@@ -1838,7 +1839,7 @@ const AREA_TAGS = new Set([
         el.addEventListener("click", (ev) => {
           if (ev.target.closest("a, .entry-tag, .entry-img")) return; // image opens lightbox; tags/links do their own thing
           selectEntry(id);
-          focusEntry(id, { openPopup: true });
+          focusEntry(id);
         });
 
         // Click thumbnail → fullscreen lightbox
@@ -1921,54 +1922,44 @@ const AREA_TAGS = new Set([
     document.body.style.overflow = "";
   }
 
-  function focusEntry(id, opts = {}) {
+  function focusEntry(id) {
     if (state.focusedUid && state.focusedUid !== id) unfocusEntry(state.focusedUid);
     state.focusedUid = id;
     const el = state.entryEls.get(id);
     if (el) el.classList.add("is-focused");
-    const marker = state.markers.get(id);
-    if (marker) {
-      const icon = marker.getElement();
-      if (icon) icon.querySelector(".pin")?.classList.add("is-active");
-    }
-    // Show the info card overlay instead of a tooltip popup — it's at a fixed
-    // position so it never gets cut off by map edges, and the map never moves.
-    if (opts.openPopup) {
-      const [secCat, name] = id.split("::");
-      const sec = state.sections.find(s => s.category === secCat);
-      const entry = sec?.entries.find(e => e.name === name);
-      if (entry && sec) showInfoCard(entry, sec);
-    }
+    const pin = pinElFor(id);
+    if (pin) pin.classList.add("is-active");
   }
 
   // Persistent selection. Survives mouseleave so the user can always see which
-  // place they're focused on after clicking either the list entry or the pin.
+  // place they're focused on after clicking either the list entry or the pin —
+  // both the list row AND the map pin get the persistent "is-selected" class.
   function selectEntry(id) {
     if (state.selectedUid && state.selectedUid !== id) clearSelection();
     state.selectedUid = id;
     state.entryEls.get(id)?.classList.add("is-selected");
+    const pin = pinElFor(id);
+    if (pin) {
+      // Re-trigger the select animation if the same pin is reselected.
+      pin.classList.remove("is-selected");
+      // Force reflow so the keyframe plays again.
+      void pin.offsetWidth;
+      pin.classList.add("is-selected");
+    }
   }
   function clearSelection() {
     if (!state.selectedUid) return;
     state.entryEls.get(state.selectedUid)?.classList.remove("is-selected");
+    pinElFor(state.selectedUid)?.classList.remove("is-selected");
     state.selectedUid = null;
   }
 
-  // ───── Map info card (replaces Leaflet popups) ─────
-  function showInfoCard(entry, sec) {
-    const card = document.getElementById("mapInfo");
-    document.getElementById("infoCat").textContent = sec.category;
-    document.getElementById("infoName").textContent = entry.name;
-    const desc = entry.description || "";
-    document.getElementById("infoDesc").textContent =
-      desc.length > 160 ? desc.slice(0, 160).replace(/\s+\S*$/, "") + "…" : desc;
-    const link = document.getElementById("infoLink");
-    if (entry.url) { link.href = entry.url; link.hidden = false; }
-    else { link.hidden = true; }
-    card.hidden = false;
-  }
-  function hideInfoCard() {
-    document.getElementById("mapInfo").hidden = true;
+  // Helper: get the .pin element inside a marker's icon, if rendered.
+  function pinElFor(id) {
+    const marker = state.markers.get(id);
+    if (!marker) return null;
+    const icon = marker.getElement();
+    return icon ? icon.querySelector(".pin") : null;
   }
 
   // ───── Geolocation ─────
@@ -2017,8 +2008,7 @@ const AREA_TAGS = new Set([
         state.map.once("moveend", () => {
           state.suppressMoveEnd = false;
           state.mapBounds = state.map.getBounds();
-          renderEntries();
-          updateBoundsResetVisibility();
+          onMapBoundsChanged();
         });
       },
       (err) => {
@@ -2036,11 +2026,7 @@ const AREA_TAGS = new Set([
   function unfocusEntry(id) {
     const el = state.entryEls.get(id);
     if (el) el.classList.remove("is-focused");
-    const marker = state.markers.get(id);
-    if (marker) {
-      const icon = marker.getElement();
-      if (icon) icon.querySelector(".pin")?.classList.remove("is-active");
-    }
+    pinElFor(id)?.classList.remove("is-active");
     if (state.focusedUid === id) state.focusedUid = null;
   }
 
@@ -2057,12 +2043,11 @@ const AREA_TAGS = new Set([
       popupAnchor: [0, -10],
     });
     const marker = L.marker([c.lat, c.lng], { icon, riseOnHover: true });
-    // No bindPopup — we use a fixed info card that's never cut off by edges.
     marker.on("click", () => {
       const el = state.entryEls.get(id);
       if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
       selectEntry(id);
-      focusEntry(id, { openPopup: true });
+      focusEntry(id);
     });
     marker.on("mouseover", () => focusEntry(id));
     marker.on("mouseout", () => unfocusEntry(id));
@@ -2082,10 +2067,9 @@ const AREA_TAGS = new Set([
     });
     state.map = map;
 
-    // Click on empty map background → clear the persistent selection and dismiss
-    // the info card. Marker clicks don't bubble to map click in Leaflet.
+    // Click on empty map background → clear the persistent selection.
+    // Marker clicks don't bubble to map click in Leaflet.
     map.on("click", () => {
-      hideInfoCard();
       clearSelection();
     });
 
@@ -2202,8 +2186,7 @@ const AREA_TAGS = new Set([
           map.once("moveend", () => {
             state.suppressMoveEnd = false;
             state.mapBounds = map.getBounds();
-            renderEntries();
-            updateBoundsResetVisibility();
+            onMapBoundsChanged();
           });
         });
         return div;
@@ -2278,8 +2261,7 @@ const AREA_TAGS = new Set([
       if (state.suppressMoveEnd) return;
       state.useMapBounds = true;
       state.mapBounds = map.getBounds();
-      renderEntries();
-      updateBoundsResetVisibility();
+      onMapBoundsChanged();
     });
   }
 
@@ -2297,25 +2279,22 @@ const AREA_TAGS = new Set([
         else state.map.removeLayer(m);
       }
     }
+    // Re-adding a marker rebuilds its divIcon HTML, dropping any is-selected /
+    // is-active classes — restore them from state so a filter change doesn't
+    // visually deselect the user's pick.
+    if (state.selectedUid) pinElFor(state.selectedUid)?.classList.add("is-selected");
+    if (state.focusedUid) pinElFor(state.focusedUid)?.classList.add("is-active");
   }
 
-  function flyToFilteredBounds() {
-    if (!state.map) return;
-    const visibleLatLngs = [];
-    for (const [, m] of state.markers) {
-      if (state.map.hasLayer(m)) visibleLatLngs.push(m.getLatLng());
-    }
-    if (visibleLatLngs.length === 0) return;
-    const bounds = L.latLngBounds(visibleLatLngs).pad(0.18);
-    state.suppressMoveEnd = true;
-    state.map.flyToBounds(bounds, { duration: 0.55, maxZoom: 14 });
-    state.map.once("moveend", () => {
-      state.suppressMoveEnd = false;
-      state.mapBounds = state.map.getBounds();
-      // Re-render entries so the bounds intersection is exact
-      renderEntries();
-      updateBoundsResetVisibility();
-    });
+  // Called after the map's view bounds change (user pan/zoom, locate-me, reset).
+  // Re-renders both the entry list AND the chip panels so chip counts (which
+  // honour the bounds filter) stay aligned with the visible entries.
+  function onMapBoundsChanged() {
+    renderEntries();
+    renderTypeChips();
+    renderAreaChips();
+    renderTagChips();
+    updateBoundsResetVisibility();
   }
 
   function updateBoundsResetVisibility() {
@@ -2345,7 +2324,7 @@ const AREA_TAGS = new Set([
       renderTypeChips(); renderAreaChips(); renderTagChips();
       renderTabBadges(); renderActiveFilters();
       updateMeta();
-      hideInfoCard();
+      clearSelection();
       // Reset map view to initial bounds; useMapBounds turns off
       if (state.map && state.initialBounds) {
         state.useMapBounds = false;
@@ -2354,24 +2333,51 @@ const AREA_TAGS = new Set([
         state.map.once("moveend", () => {
           state.suppressMoveEnd = false;
           state.mapBounds = state.map.getBounds();
-          updateBoundsResetVisibility();
-          renderEntries();
+          onMapBoundsChanged();
         });
       }
       renderMarkers();
       renderEntries();
     });
 
-    // Tabbed filter switching
+    // Tabbed filter switching. Search bar and chip panels share the same
+    // overlay slot below the band — only one is open at a time.
     document.querySelectorAll(".tab[data-tab]").forEach(t => {
-      t.addEventListener("click", () => switchTab(t.dataset.tab));
+      t.addEventListener("click", () => {
+        if (state.searchOpen) setSearchOpen(false);
+        switchTab(t.dataset.tab);
+      });
     });
+
+    // Chip panels are floating overlays — only interactions INSIDE the panel
+    // itself keep it open. Clicks on the blue banner, page content, map, etc.
+    // dismiss it. Tabs are exempted because they own the open/close toggle.
+    //
+    // Capture phase: chip click handlers call applyFilterChange() and replace
+    // the panel's children, so by the time a bubble-phase handler ran the
+    // original chip would already be detached and closest() would miss.
+    document.addEventListener("click", (e) => {
+      if (!state.activeTab) return;
+      if (e.target.closest(".chips.tab-panel")) return;
+      if (e.target.closest(".filter-tabs")) return;
+      switchTab(null);
+    }, true);
 
     // Search bar — toggle visibility, fuzzy-search entries on input.
     const searchToggle = document.getElementById("searchToggle");
     const searchBar = document.getElementById("searchBar");
     const searchInput = document.getElementById("searchInput");
     const searchClear = document.getElementById("searchClear");
+
+    // Show the platform-correct shortcut hint inside the search toggle and
+    // keep aria-label / title in sync.
+    const isMac = /Mac|iPhone|iPad|iPod/.test(navigator.userAgent || "");
+    const shortcutLabel = isMac ? "⌘ K" : "Ctrl K";
+    const shortcutTitleLabel = isMac ? "⌘K" : "Ctrl+K";
+    const searchKbd = document.getElementById("searchKbd");
+    if (searchKbd) searchKbd.textContent = shortcutLabel;
+    searchToggle.setAttribute("aria-label", `Search places (${shortcutTitleLabel})`);
+    searchToggle.setAttribute("title", `Search (${shortcutTitleLabel})`);
 
     function setSearchOpen(open) {
       state.searchOpen = open;
@@ -2389,7 +2395,11 @@ const AREA_TAGS = new Set([
         applyFilterChange();
       }
     }
-    searchToggle.addEventListener("click", () => setSearchOpen(!state.searchOpen));
+    searchToggle.addEventListener("click", () => {
+      // Mutually exclusive with chip panels — close any open tab first.
+      if (!state.searchOpen && state.activeTab) switchTab(null);
+      setSearchOpen(!state.searchOpen);
+    });
     let searchTimer = null;
     searchInput.addEventListener("input", () => {
       const q = searchInput.value.trim().toLowerCase();
@@ -2415,11 +2425,12 @@ const AREA_TAGS = new Set([
     searchInput.addEventListener("keydown", (e) => {
       if (e.key === "Escape") setSearchOpen(false);
     });
-
-    // Map info card close — also clears the persistent selection.
-    document.getElementById("infoClose")?.addEventListener("click", () => {
-      hideInfoCard();
-      clearSelection();
+    // Auto-close on blur — but skip when focus is moving to the clear button
+    // (which refocuses the input) or the toggle button (whose own click handler
+    // toggles state, so we'd otherwise double-act and reopen).
+    searchInput.addEventListener("blur", (e) => {
+      if (e.relatedTarget === searchClear || e.relatedTarget === searchToggle) return;
+      if (state.searchOpen) setSearchOpen(false);
     });
 
     // Lightbox close handlers — only the empty overlay area closes; children (image,
@@ -2429,6 +2440,15 @@ const AREA_TAGS = new Set([
     document.getElementById("lightboxClose").addEventListener("click", closeLightbox);
     document.addEventListener("keydown", (e) => {
       if (e.key === "Escape" && !document.getElementById("lightbox").hidden) closeLightbox();
+      // Ctrl+K (or Cmd+K) opens the search bar from anywhere on the page.
+      if ((e.ctrlKey || e.metaKey) && !e.altKey && (e.key === "k" || e.key === "K")) {
+        e.preventDefault();
+        if (!state.searchOpen) {
+          // Mutually exclusive with chip panels — close any open tab first.
+          if (state.activeTab) switchTab(null);
+          setSearchOpen(true);
+        } else searchInput.select();
+      }
     });
 
     // Sticky shadow sentinel
