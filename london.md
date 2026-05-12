@@ -122,7 +122,7 @@ Google Maps Collection Link: https://maps.app.goo.gl/TanA1A3spUNxBKoNA
   - Tags: food, gastropub, farringdon
 - Cafe Tiffin (Farringdon)
   - https://www.google.com/maps/search/?api=1&query=Cafe+Tiffin+Compton+Street+London
-  - What it is: Casual Indian cafe-canteen near Farringdon for thalis and chai.
+  - What it is: Solid but not outstanding Indian cafe-canteen near Farringdon — go for the bhaji dishes. Not the fried onion bhaji you usually see in the UK; the dry spiced vegetable kind, which is hard to find in London. (Bhaji = a type of dry spiced vegetable curry, depending on context.)
   - Tags: food, indian, farringdon, casual
 - OMA
   - https://www.google.com/maps/search/?api=1&query=OMA+Bedale+Street+Borough+Market+London
@@ -176,6 +176,10 @@ Google Maps Collection Link: https://maps.app.goo.gl/TanA1A3spUNxBKoNA
   - https://www.google.com/maps/search/?api=1&query=Bona+Sourdough+Pizza+Dartmouth+Road+Forest+Hill+London
   - What it is: Sourdough pizzeria on Dartmouth Road in Forest Hill, baking 24-hour fermented dough in a wood-fired Acunto oven for Neapolitan-style pizzas.
   - Tags: food, restaurant, pizza, italian, forest-hill
+- The Dovetail
+  - https://maps.app.goo.gl/jQRugGccQF11hut88
+  - What it is: Belgian beer pub down a tiny alley off Clerkenwell Road on Jerusalem Passage, with 100+ Belgian beers and classics like mussels and carbonnade.
+  - Tags: food, pub, belgian, beer, clerkenwell
 
 ## Street Food
 

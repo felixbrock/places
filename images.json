@@ -367,5 +367,10 @@
   "Green Chain Walk": {
     "slug": "green-chain-walk",
     "src": null
+  },
+  "The Dovetail": {
+    "slug": "the-dovetail",
+    "src": "images/the-dovetail.jpg",
+    "remote": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHUnpvyaHJoxrJC1QmjpvxTvaI692pUU4mkZvZwdcJF4Ta2iv4NkVnH3ETlD7BLCMns3ZBeqn9nhe6T10_7Wq-k2_hHnBJtZygKMHwuaHi0Yu1-zf7Ido9ScJ88SablupjH5O2Gxg=w408-h306-k-no"
   }
 }

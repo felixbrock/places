@@ -442,5 +442,11 @@
     "lng": -0.0715026,
     "source": "google",
     "query": "https://www.google.com/maps/search/?api=1&query=Green+Chain+Walk+London"
+  },
+  "The Dovetail": {
+    "lat": 51.5232631,
+    "lng": -0.1039691,
+    "source": "google",
+    "query": "https://maps.app.goo.gl/jQRugGccQF11hut88"
   }
 }
